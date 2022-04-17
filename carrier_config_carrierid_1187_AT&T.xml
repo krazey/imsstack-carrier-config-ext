@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config>
+    <!-- Ims General -->
+    <boolean name="session_timer_update_required_in_session_update_by_reinvite_bool" value="false"/>
+    <boolean name="use_tuple_element_for_geolocation_pidf_bool" value="true"/>
+    <boolean name="allow_unknown_country_element_for_geolocation_pidf_bool" value="false"/>
+    <!-- Aos -->
+    <boolean name="ims.sip_over_ipsec_enabled_bool" value="true"/>
+    <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+        <item value="0"/>
+        <item value="1"/>
+    </int-array>
+    <int-array name="ims.ipsec_encryption_algorithms_int_array" num="3">
+        <item value="0"/>
+        <item value="1"/>
+        <item value="2"/>
+    </int-array>
+    <int-array name="ims.ims_identity_priority_int_array" num="1">
+        <item value="0"/>
+    </int-array>
+    <int name="ims.isim_index_for_impu_int" value="0"/>
+    <int name="ims.registration_preferred_accesstype_feature_tag_int" value="0"/>
+
+    <!-- Assets: non-carrier configurations -->
+    <boolean name="use_security_server_port_in_reg_contact_of_initial_registration_bool" value="true"/>
+    <!-- KEY_SUBSCRIPTION_ERROR_CODE_FOR_REG_EVENT_WITH_INITIAL_REGISTRATION_BUNDLE -->
+    <int name="subscription_error_retry_max_count_for_reg_event_with_initial_registration_int" value="1"/>
+    <int-array name="subscription_error_code_for_reg_event_with_initial_registration_int_array" num="3">
+        <item value="403"/>
+        <item value="504"/>
+        <item value="0"/>
+    </int-array>
+    <boolean name="required_volte_block_by_airplane_mode_bool" value="true"/>
+
+    <!-- Ut/Xcap AOSP -->
+    <boolean name="carrier_supports_ss_over_ut_bool" value="true"/>
+    <boolean name="imsss.use_csfb_on_xcap_over_ut_failure_bool" value="false"/>
+    <int name="imsss.ut_transport_type_int" value="1"/>
+
+    <!--Ut/Xcap Assets -->
+    <boolean name="ut_query_cf_all_and_cf_all_conditional_support_bool" value="false"/>
+    <boolean name="ut_display_error_phrase_with_409_error_bool" value="true"/>
+</carrier_config>
