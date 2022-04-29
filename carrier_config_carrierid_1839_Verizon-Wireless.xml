@@ -193,5 +193,8 @@
     <boolean name="conference_refer_to_uri_source_paid_bool" value="true"/>
     <int name="conference_drop_refer_to_uri_source_type_int" value="1"/>
     <int name="imsvoice.conference_sip_flow_order_int" value="0"/>
+    <boolean name="video_hold_with_direction_inactive_bool" value="true"/>
+    <boolean name="text_hold_with_direction_inactive_bool" value="true"/>
+    <boolean name="incoming_resume_event_support_bool" value="true"/>
 
 </carrier_config>
