@@ -73,4 +73,6 @@
     <!-- MTC -->
     <string name="imsvoice.conference_factory_uri_string">sip:n-way_voice@one.att.net</string>
 
+    <!-- Media -->
+    <int name="audio_maxred_int" value="0"/>
 </carrier_config>
