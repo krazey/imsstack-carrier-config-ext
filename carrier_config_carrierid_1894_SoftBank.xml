@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <carrier_config>
+    <!-- Carrier configurations -->
+
+    <!-- Assets: non-carrier configurations -->
+    <!-- Ims General -->
+    <boolean name="session_timer_update_required_in_session_update_by_reinvite_bool" value="false"/>
 </carrier_config>

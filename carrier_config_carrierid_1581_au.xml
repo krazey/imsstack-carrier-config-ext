@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <carrier_config>
+    <!-- Carrier configurations -->
+    <!-- Ims General -->
+    <boolean name="ims.sip_compact_form_enabled_bool" value="true"/>
+    <boolean name="ims.allow_sip_p_access_network_info_header_in_initial_register_bool" value="true"/>
+
+    <!-- Assets: non-carrier configurations -->
 </carrier_config>
