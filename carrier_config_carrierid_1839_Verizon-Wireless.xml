@@ -105,6 +105,7 @@
 
     <!-- KEY_REGISTRATION_RETRY_BUNDLE -->
     <int name="registration_retry_default_policy_int" value="1"/>
+    <int name="registration_retry_sip_503_code_policy_int" value="0"/>
 
     <!-- KEY_SUBSCRIPTION_TERMINATED_ERROR_CODE_FOR_REG_EVENT_BUNDLE -->
     <int name="subscription_terminated_error_code_for_reg_event_retry_max_count_int" value="2"/>
