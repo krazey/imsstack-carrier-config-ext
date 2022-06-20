@@ -360,7 +360,7 @@
     <int name="registration_retry_default_policy_int" value="0"/>
     <int name="registration_retry_sip_503_code_policy_int" value="1"/>
     <!-- End BUNDLE -->
-     <!-- KEY_REREGISTRATION_RETRY_BUNDLE -->
+    <!-- KEY_REREGISTRATION_RETRY_BUNDLE -->
     <int-array name="reregistration_retry_error_code_with_initial_registration_int_array" num="0">
     </int-array>
     <boolean name="reregistration_retry_expire_time_checked_bool" value="false"/>
