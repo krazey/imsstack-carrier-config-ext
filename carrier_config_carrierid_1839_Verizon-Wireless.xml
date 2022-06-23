@@ -237,6 +237,9 @@
     <boolean name="imsemergency.emergency_call_over_emergency_pdn_on_cellular_bool" value="true"/>
     <int name="emergency_rtt_guard_timer_millis_int" value="-1"/>
 
+    <!-- Mts -->
+    <boolean name="sms_use_dialed_number_for_request_uri_bool" value="true"/>
+
     <!-- Uce -->
     <int name="imsuce.expire_value_publish_sec_int" value="1200"/>
     <int name="imsuce.extended_expire_value_publish_sec_int" value="86400"/>
