@@ -129,7 +129,6 @@
 
     <!-- Ut/Xcap AOSP -->
     <int name="gba_mode_int" value="2"/>
-    <boolean name="carrier_supports_ss_over_ut_bool" value="true"/>
     <boolean name="imsss.use_csfb_on_xcap_over_ut_failure_bool" value="true"/>
     <int name="imsss.ut_transport_type_int" value="3"/>
 

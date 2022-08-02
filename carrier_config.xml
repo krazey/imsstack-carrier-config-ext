@@ -189,7 +189,6 @@
     </int-array>
     <int name="imsss.ut_max_retry_count_int" value="0"/>
     <int name="imsss.ut_temporary_block_timer_min_int" value="1"/>
-    <boolean name="imsss.xcap_over_wifi_requires_vowifi_registration_bool" value="false"/>
     <int name="imsss.terminal_based_call_wait_sync_int" value="0"/>
     <boolean name="imsss.terminal_based_call_wait_default_activated_bool" value="true"/>
 

@@ -15,4 +15,20 @@
  * limitations under the License.
 -->
 <carrier_config>
+    <!-- Ut/Xcap AOSP -->
+    <int name="gba_mode_int" value="1"/>
+    <boolean name="imsss.use_csfb_on_xcap_over_ut_failure_bool" value="true"/>
+    <int name="imsss.ut_as_server_port_int" value="8090"/>
+    <int name="imsss.ut_transport_type_int" value="1"/>
+
+    <!--Ut/Xcap Assets -->
+    <int-array name="imsss.ut_http_temporary_error_code_int_array" num="4">
+        <item value="0"/>
+        <!-- 403 isn't in Telus requirement. It is from previous solution -->
+        <item value="403"/>
+        <item value="404"/>
+        <item value="599"/>
+    </int-array>
+    <!-- Timer value is not in requirement. It is from previous solution -->
+    <int name="imsss.ut_temporary_block_timer_min_int" value="5"/>
 </carrier_config>
