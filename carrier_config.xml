@@ -262,6 +262,7 @@
     <boolean name="registration_contact_validation_bool" value="false"/>
     <boolean name="remove_old_sa_on_establishing_sa_bool" value="false"/>
     <boolean name="require_reg_after_ims_call_end_on_reg_held_bool" value="true"/>
+    <boolean name="support_vowifi_capability_when_wifi_only_or_preferred_in_roaming_bool" value="false"/>
     <boolean name="required_emergency_registration_in_roaming_bool" value="false"/>
     <boolean name="required_volte_block_by_setting_bool" value="false"/>
     <boolean name="required_volte_block_by_airplane_mode_bool" value="false"/>
