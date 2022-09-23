@@ -368,6 +368,11 @@
     <!-- <int name="imsvoice.codec_attribute_cmr_int" value="0"/> -->
     <int name="imsvoice.evs_codec_attribute_ch_aw_recv_int" value="3"/>
     <int name="imsvoice.evs_amrwb_io_mode_set_int" value="7"/>
+    <boolean name="audio_rtcpxr_enable_bool" value="false"/>
+    <boolean name="audio_rtcpxr_statistics_bool" value="false"/>
+    <boolean name="audio_rtcpxr_voip_metrics_bool" value="false"/>
+    <boolean name="audio_rtcpxr_packet_loss_rle_bool" value="false"/>
+    <boolean name="audio_rtcpxr_packet_duplicate_rle_bool" value="false"/>
     <int name="video_cvo_value_int" value="4"/>
     <int name="video_sdp_offer_cap_nego_for_avpf_int" value="1"/>
     <boolean name="video_avpf_enable_bool" value="true"/>
