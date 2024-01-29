@@ -308,6 +308,7 @@
     <boolean name="call_end_and_pdn_reactivation_by_reg_terminated_bool" value="false"/>
     <boolean name="destroy_unsecure_tcp_socket_on_accomplishing_reg_bool" value="false"/>
     <boolean name="emc_call_based_on_p_associated_uri_of_normal_reg_bool" value="false"/>
+    <boolean name="emc_reg_on_random_pcscf_bool" value="false"/>
     <boolean name="hold_reg_with_ipcan_changed_during_ims_call_bool" value="false"/>
     <boolean name="ignore_vops_for_volte_enable_bool" value="true"/>
     <boolean name="ims_dereg_on_3g_network_bool" value="false"/>
