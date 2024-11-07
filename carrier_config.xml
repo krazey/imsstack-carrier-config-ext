@@ -336,8 +336,8 @@
     <boolean name="required_cdmaless_feature_tag_bool" value="false"/>
     <boolean name="required_init_reg_after_ims_call_end_on_reg_held_bool" value="false"/>
     <boolean name="imsvoice.required_volte_block_by_ssac_bool" value="false"/>
-    <boolean name="required_wfc_block_by_airplane_mode_bool" value="false"/>
-    <boolean name="rereg_with_changed_country_on_wifi_bool" value="false"/>
+    <boolean name="imswfc.required_wfc_block_by_airplane_mode_bool" value="false"/>
+    <boolean name="imswfc.rereg_with_changed_country_on_wifi_bool" value="false"/>
     <boolean name="sip_over_ipsec_enabled_in_roaming_bool" value="true"/>
     <boolean name="imssms.sms_over_ims_available_without_voice_capa_bool" value="true"/>
     <boolean name="support_contact_user_info_bool" value="true"/>
@@ -349,8 +349,8 @@
     <boolean name="use_rcs_telephony_feature_tag_as_available_voice_call_type_bool" value="false"/>
     <boolean name="use_security_server_port_in_init_reg_bool" value="false"/>
     <boolean name="use_security_server_port_in_reg_contact_of_init_reg_bool" value="false"/>
-    <boolean name="use_wfc_country_code_availability_check_bool" value="false"/>
-    <boolean name="video_over_wifi_supported_without_voice_bool" value="false"/>
+    <boolean name="imswfc.use_wfc_country_code_availability_check_bool" value="false"/>
+    <boolean name="imswfc.video_over_wifi_supported_without_voice_bool" value="false"/>
 
     <int name="contact_user_info_policy_for_non_reg_message_int" value="1"/>
     <int name="epdn_preferred_iptype_int" value="1"/>
@@ -401,7 +401,7 @@
     </int-array>
     <int-array name="supported_roaming_rats_int_array" num="0">
     </int-array>
-    <int-array name="vowifi_sub_err_code_for_init_reg_int_array" num="0">
+    <int-array name="imswfc.vowifi_sub_err_code_for_init_reg_int_array" num="0">
     </int-array>
 
     <!-- KEY_EXTRA_REG_ERR_BUNDLE -->
@@ -467,13 +467,13 @@
         </int-array>
     </pbundle>
     <!-- KEY_WFC_ERR_MESSAGE_BUNDLE -->
-    <pbundle name="wfc_err_message_bundle">
-        <string name="wfc_err_reg_403_string"></string>
-        <string name="wfc_err_reg_500_string"></string>
-        <string name="wfc_err_not_supported_country_string"></string>
-        <string name="wfc_err_sub_403_string"></string>
-        <string name="wfc_err_notify_terminated_string"></string>
-        <string name="wfc_err_other_failures_string"></string>
+    <pbundle name="imswfc.wfc_err_message_bundle">
+        <string name="imswfc.wfc_err_reg_403_string"></string>
+        <string name="imswfc.wfc_err_reg_500_string"></string>
+        <string name="imswfc.wfc_err_not_supported_country_string"></string>
+        <string name="imswfc.wfc_err_sub_403_string"></string>
+        <string name="imswfc.wfc_err_notify_terminated_string"></string>
+        <string name="imswfc.wfc_err_other_failures_string"></string>
     </pbundle>
 
     <!-- Mtc -->

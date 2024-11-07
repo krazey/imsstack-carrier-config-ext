@@ -22,7 +22,7 @@
 
     <!-- Aos -->
     <boolean name="imsvoice.ignore_vops_for_volte_enable_bool" value="false"/>
-    <boolean name="use_wfc_country_code_availability_check_bool" value="true"/>
+    <boolean name="imswfc.use_wfc_country_code_availability_check_bool" value="true"/>
 
     <!-- Ut/Xcap AOSP -->
     <!-- Previous solution was using 80 and TCP, but need to check actual operation with requirement
