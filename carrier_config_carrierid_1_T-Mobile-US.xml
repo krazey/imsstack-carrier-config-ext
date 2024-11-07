@@ -73,12 +73,12 @@
     </int-array>
 
     <!-- KEY_EXTRA_REG_ERR_BUNDLE -->
-    <pbundle name="extra_reg_err_bundle">
-        <int name="extra_reg_err_final_type_int" value="4"/>
-        <int name="extra_reg_err_pcscfs_repeated_cnt_for_eps_5gs_only_attached_int" value="1"/>
-        <int name="extra_reg_err_pcscfs_repeated_cnt_for_lte_combined_attached_int" value="2"/>
-        <int name="extra_reg_err_policy_int" value="3"/>
-        <int-array name="extra_reg_err_code_int_array" num="6">
+    <pbundle name="ims.extra_reg_err_bundle">
+        <int name="ims.extra_reg_err_final_type_int" value="4"/>
+        <int name="ims.extra_reg_err_pcscfs_repeated_cnt_for_eps_5gs_only_attached_int" value="1"/>
+        <int name="ims.extra_reg_err_pcscfs_repeated_cnt_for_lte_combined_attached_int" value="2"/>
+        <int name="ims.extra_reg_err_policy_int" value="3"/>
+        <int-array name="ims.extra_reg_err_code_int_array" num="6">
             <item value="0"/>
             <item value="1"/>
             <item value="305"/>
