@@ -54,13 +54,13 @@
     <boolean name="imsvoice.ignore_vops_for_volte_enable_bool" value="false"/>
     <boolean name="imsemergency.keep_ereg_retry_on_wlan_bool" value="true"/>
     <boolean name="imsvoice.plmn_block_with_timeout_on_voice_call_unavailable_bool" value="true"/>
-    <boolean name="reg_contact_validation_bool" value="true"/>
-    <boolean name="required_cdmaless_feature_tag_bool" value="true"/>
+    <boolean name="ims.reg_contact_validation_bool" value="true"/>
+    <boolean name="ims.required_cdmaless_feature_tag_bool" value="true"/>
     <boolean name="imsvoice.required_volte_block_by_ssac_bool" value="true"/>
     <boolean name="imsemergency.support_erereg_on_ipcan_change_bool" value="true"/>
     <boolean name="imsemergency.support_video_for_ereg_bool" value="true"/>
     <boolean name="support_vowifi_capability_when_wifi_only_or_preferred_in_roaming_bool" value="true"/>
-    <boolean name="use_rcs_telephony_feature_tag_as_available_voice_call_type_bool" value="true"/>
+    <boolean name="ims.use_rcs_telephony_feature_tag_as_available_voice_call_type_bool" value="true"/>
     <boolean name="imswfc.video_over_wifi_supported_without_voice_bool" value="true"/>
     <boolean name="imsemergency.ereg_on_random_pcscf_bool" value="true"/>
     <int name="ims_establishment_time_sec_int" value="120"/>

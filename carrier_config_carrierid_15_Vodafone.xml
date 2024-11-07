@@ -27,7 +27,7 @@
     </int-array>
     <int name="imswfc.registration_private_header_int" value="2"/>
     <int name="reg_retry_cnt_per_pcscf_int" value="3"/>
-    <boolean name="ims_dereg_on_3g_network_bool" value="true"/>
+    <boolean name="ims.ims_dereg_on_3g_network_bool" value="true"/>
     <boolean name="imswfc.use_wfc_country_code_availability_check_bool" value="true"/>
 
     <!-- Ut/Xcap AOSP -->

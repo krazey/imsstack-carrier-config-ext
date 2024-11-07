@@ -16,7 +16,7 @@
 -->
 <carrier_config>
     <!-- Aos -->
-    <boolean name="ims_dereg_on_3g_network_bool" value="true"/>
+    <boolean name="ims.ims_dereg_on_3g_network_bool" value="true"/>
 
       <!-- MTC -->
       <int name="ims.request_uri_type_int" value="1"/>

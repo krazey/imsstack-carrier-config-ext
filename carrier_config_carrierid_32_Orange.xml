@@ -17,7 +17,7 @@
 <carrier_config>
     <!-- Carrier configurations -->
     <!-- Aos -->
-    <boolean name="support_reg_with_feature_tag_unavailable_bool" value="true"/>
+    <boolean name="ims.support_reg_with_feature_tag_unavailable_bool" value="true"/>
 
     <!-- Mtc Assets -->
     <int name="ims.geolocation_policy_for_location_based_call_int" value="9"/>
