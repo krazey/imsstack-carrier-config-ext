@@ -254,6 +254,10 @@
     <boolean name="imsvoice.voice_on_default_bearer_supported_bool" value="false"/>
     <boolean name="imsvt.video_on_default_bearer_supported_bool" value="false"/>
     <boolean name="imsrtt.text_on_default_bearer_supported_bool" value="false"/>
+    <int-array name="imsvoice.rat_condition_for_not_waiting_dedicated_bearer_int_array" num="2">
+        <item value="0"/> <!-- NO_WAIT_DEDICATED_BEARER_IN_NR -->
+        <item value="1"/> <!-- NO_WAIT_DEDICATED_BEARER_IN_EPS_FALLBACK -->
+    </int-array>
 
     <!-- MTC terminate reason -->
     <string name="imsvoice.call_terminate_reason_header_user_ends_and_rtp_timeout_string">RELEASE_CAUSE;cause=2;text="User ends call RTP/RTCP time-out"</string>
