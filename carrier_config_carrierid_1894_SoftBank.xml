@@ -73,7 +73,6 @@
     <boolean name="imsvoice.prack_supported_for_18x_bool" value="true"/>
     <int name="imsvoice.conference_subscribe_type_int" value="1"/>
     <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true"/>
-    <boolean name="imsvoice.voice_on_default_bearer_supported_bool" value="true"/>
     <int name="imsvoice.dedicated_bearer_wait_timer_millis_int" value="4000"/>
     <int name="imsvoice.ringing_timer_millis_int" value="330000"/>
     <int name="imsvoice.ringback_timer_millis_int" value="600000"/>
