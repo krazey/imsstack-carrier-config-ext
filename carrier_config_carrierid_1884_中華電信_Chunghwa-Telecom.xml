@@ -19,6 +19,7 @@
     <boolean name="ims.allow_unknown_country_element_in_geolocation_pidf_bool" value="false"/>
 
     <!-- Aos -->
+    <boolean name="ims.block_reg_on_cs_call_bool" value="false"/>
     <int-array name="ims.ims_identity_priority_int_array" num="1">
         <item value="1"/>
     </int-array>
