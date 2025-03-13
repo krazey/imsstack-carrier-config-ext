@@ -21,5 +21,10 @@
     <boolean name="imsss.ut_requires_ims_registration_bool" value="true"/>
 
     <!-- Ut/Xcap -->
+    <int-array name="imsss.ut_http_permanent_error_code_int_array" num="3">
+        <item value="404"/>
+        <item value="408"/>
+        <item value="504"/>
+    </int-array>
     <boolean name="imsss.ut_support_cf_action_erasure_bool" value="false"/>
 </carrier_config>
