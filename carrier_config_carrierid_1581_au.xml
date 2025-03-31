@@ -18,6 +18,7 @@
     <!-- Ims General -->
     <boolean name="ims.sip_compact_form_enabled_bool" value="true"/>
     <boolean name="ims.allow_sip_p_access_network_info_header_in_initial_register_bool" value="true"/>
+    <boolean name="ims.support_sip_session_id_header_bool" value="true"/>
 
     <!-- Aos -->
     <int name="ims.reg_actual_wait_time_policy_int" value="3"/>
@@ -67,7 +68,7 @@
     <boolean name="imsemergency.support_anonymous_ecall_action_bool" value="true"/>
     <boolean name="imsemergency.use_reg_retry_rule_for_ereg_bool" value="true"/>
     <int name="imsemergency.preferred_emergency_registration_int" value="1"/>
-    <boolean name="ims.support_sip_session_id_header_bool" value="true"/>
+    <int name="imsemergency.reg_timer_for_ecall_millis_int" value="8000"/>
 
     <!-- Mtc -->
     <int name="imsvoice.policy_for_prack_delivery_failure_int" value="1"/>
