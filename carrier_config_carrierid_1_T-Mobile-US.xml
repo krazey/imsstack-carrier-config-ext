@@ -207,7 +207,7 @@
         <item value="501:0"/> <!-- CSFB -->
         <item value="502:0"/> <!-- CSFB -->
         <item value="503:0"/> <!-- CSFB -->
-        <item value="504:0"/> <!-- CSFB -->
+        <item value="504:4, 0"/> <!-- REGISTRATION_RESTORATION_ON_IMS3GPP_BY_POLICY, CSFB -->
         <item value="505:0"/> <!-- CSFB -->
         <item value="513:0"/> <!-- CSFB -->
         <item value="580:0"/> <!-- CSFB -->
