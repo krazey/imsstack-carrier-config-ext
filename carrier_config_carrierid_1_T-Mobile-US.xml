@@ -43,7 +43,7 @@
     <int name="ims.reg_actual_wait_time_policy_int" value="2"/>
     <int name="ims.reg_retry_305_policy_int" value="0"/>
     <int name="ims.reg_retry_503_policy_int" value="0"/>
-    <int name="ims.reg_retry_cnt_reset_policy_int" value="1"/>
+    <int name="ims.reg_retry_cnt_reset_policy_int" value="2"/>
     <int name="ims.reg_retry_default_policy_int" value="1"/>
     <int name="ims.sip_message_threshold_for_transport_change_int" value="340"/>
     <int name="ims.sub_retry_503_policy_int" value="0"/>
@@ -94,8 +94,9 @@
         <item value="423"/>
     </int-array>
     <boolean name="imsvoice.ignore_vops_for_volte_enable_bool" value="false"/>
-    <int name="imswfc.registration_private_header_int" value="2"/>
     <boolean name="imswfc.rereg_with_changed_country_on_wifi_bool" value="true"/>
+    <int name="imswfc.registration_private_header_int" value="2"/>
+    <int name="imswfc.sub_consecutive_retry_cnt_for_reg_forbidden_in_wifi_int" value="3"/>
     <int-array name="imswfc.vowifi_sub_err_code_for_init_reg_int_array" num="1">
         <item value="403"/>
     </int-array>
