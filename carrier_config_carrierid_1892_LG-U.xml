@@ -85,11 +85,6 @@
     <boolean name="imsemergency.support_video_for_ereg_bool" value="true"/>
     <int name="imsemergency.epdn_preferred_iptype_int" value="0"/>
 
-    <!-- Mtc -->
-    <int-array name="imsvoice.registration_disconnect_reason_to_ignore_int_array" num="1">
-        <item value="10006"/> <!-- REG_NEW_REQUIRED-->
-    </int-array>
-
     <!-- Media -->
     <boolean name="imsvoice.audio_hold_with_direction_inactive_bool" value="true"/>
     <boolean name="imsvoice.sdp_reoffer_full_capability_bool" value="true"/>

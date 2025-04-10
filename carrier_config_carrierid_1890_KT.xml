@@ -62,11 +62,6 @@
     <boolean name="imsemergency.support_video_for_ereg_bool" value="true"/>
     <int name="imsemergency.roaming_preferred_ereg_int" value="2"/>
 
-    <!-- Mtc -->
-    <int-array name="imsvoice.registration_disconnect_reason_to_ignore_int_array" num="1">
-        <item value="10006"/> <!-- REG_NEW_REQUIRED-->
-    </int-array>
-
     <!-- Media -->
     <int-array name="imsvoice.audio_rtp_port_range_int_array" num="2">
         <item value="49152"/>
