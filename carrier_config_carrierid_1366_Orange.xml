@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--
- * Copyright (C) 2024 The Android Open Source Project
+ * Copyright (C) 2025 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,6 @@
 -->
 <carrier_config>
     <!-- Aos -->
-    <int name="ims.ims_signalling_dscp_int" value="26"/>
-
-    <!-- Ut/Xcap -->
-    <int name="imsss.ut_uri_type_for_cf_target_number_int" value="1"/>
+    <boolean name="ims.block_pcscf_on_reg_failure_bool" value="false"/>
+    <int name="ims.reg_retry_default_policy_int" value="1"/>
 </carrier_config>
