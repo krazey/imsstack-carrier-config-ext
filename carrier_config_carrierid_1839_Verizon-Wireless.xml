@@ -323,7 +323,7 @@
         <item value=""/> <!-- REG_MODE_NORMAL -->
         <item value=""/> <!-- REG_MODE_ADMIN -->
         <item value="#PUID#"/> <!-- REG_MODE_INTERNAL -->
-        <item value="sip:#IMEI#@#IP#:#PORT#"/> <!-- REG_MODE_NOUICC -->
+        <item value="sip:#IMEIWITHHYPHEN#@#IP#:#PORT#"/> <!-- REG_MODE_NOUICC -->
     </string-array>
 
     <!-- Mts -->
