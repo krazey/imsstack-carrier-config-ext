@@ -20,4 +20,5 @@
     <!-- Ut/Xcap -->
     <int name="imsss.ut_oir_network_default_operation_int" value="4"/>
     <int name="imsss.ut_xcap_apn_inactivity_timer_sec_int" value="30"/>
+    <int name="imsemergency.emergency_ringback_timer_millis_int" value="190000"/>
 </carrier_config>

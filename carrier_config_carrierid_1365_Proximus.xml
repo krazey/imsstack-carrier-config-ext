@@ -15,6 +15,9 @@
  * limitations under the License.
 -->
 <carrier_config>
+    <!-- Aos -->
+    <int name="ims.ims_signalling_dscp_int" value="26"/>
+
     <!-- Ut/Xcap -->
     <int name="imsss.ut_uri_type_for_cf_target_number_int" value="1"/>
 </carrier_config>
