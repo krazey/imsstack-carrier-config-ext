@@ -19,6 +19,9 @@
     <!-- Specifies a list of parent carrier ids from which to inherit configuration values. -->
     <int-array name="ims.parent_carrier_ids_int_array" num="0">
     </int-array>
+    <!-- Specifies a flag for whether the carrier-config of last inserted SIM should be stored
+         and used in the no SIM case. -->
+    <boolean name="ims.use_config_of_last_inserted_sim_when_no_sim_bool" value="false"/>
 
     <!-- Ims General -->
     <boolean name="ims.sip_compact_form_enabled_bool" value="false"/>
