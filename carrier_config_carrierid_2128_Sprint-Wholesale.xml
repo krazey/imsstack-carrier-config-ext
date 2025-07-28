@@ -15,9 +15,5 @@
  * limitations under the License.
 -->
 <carrier_config>
-    <!-- Please always keep this config on the first line. -->
-    <!-- Specifies a list of parent carrier ids from which to inherit configuration values. -->
-    <int-array name="ims.parent_carrier_ids_int_array" num="1">
-        <item value="1"/>
-    </int-array>
+    <boolean name="imsvoice.incoming_dtmf_tone_play_support_bool" value="true"/>
 </carrier_config>

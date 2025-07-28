@@ -18,6 +18,8 @@
     <!-- Please always keep this config on the first line. -->
     <!-- Specifies a list of parent carrier ids from which to inherit configuration values. -->
     <int-array name="ims.parent_carrier_ids_int_array" num="1">
-        <item value="1"/>
+        <item value="1802"/>
     </int-array>
+
+    <boolean name="ims.allow_sip_p_access_network_info_header_in_initial_register_bool" value="true"/>
 </carrier_config>
