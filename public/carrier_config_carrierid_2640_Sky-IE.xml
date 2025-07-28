@@ -15,13 +15,8 @@
  * limitations under the License.
 -->
 <carrier_config>
-    <int name="imsvoice.audio_rtcp_inactivity_timer_millis_int" value="0"/>
-    <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1130"/>
-    <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1130"/>
-    <string name="imsvoice.conference_factory_uri_string">sip:teleconferenceuri-factory@ims.vodafone.ie</string>
     <pbundle_as_map name="imsvoice.evs_payload_description_bundle">
         <pbundle_as_map name="127">
-            <int name="imsvoice.codec_attribute_cmr_int" value="3"/>
             <int-array name="imsvoice.evs_codec_attribute_bitrate_int_array" num="2">
                 <item value="0"/>
                 <item value="6"/>
@@ -29,12 +24,4 @@
             <int name="imsvoice.evs_codec_attribute_ch_aw_recv_int" value="255"/>
         </pbundle_as_map>
     </pbundle_as_map>
-    <int-array name="ims.geolocation_pidf_in_sip_register_support_int_array" num="2">
-        <item value="2"/>
-        <item value="4"/>
-    </int-array>
-    <int-array name="ims.geolocation_pidf_in_sip_invite_support_int_array" num="2">
-        <item value="2"/>
-        <item value="4"/>
-    </int-array>
 </carrier_config>
