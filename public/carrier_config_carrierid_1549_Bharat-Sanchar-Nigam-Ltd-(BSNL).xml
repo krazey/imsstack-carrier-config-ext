@@ -15,20 +15,22 @@
  * limitations under the License.
 -->
 <carrier_config>
-    <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
-        <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
-            <item value="98"/>
-            <item value="103"/>
-        </int-array>
-        <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
-            <item value="100"/>
-            <item value="105"/>
-        </int-array>
-        <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
-            <item value="97"/>
-        </int-array>
-        <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
-            <item value="96"/>
-        </int-array>
+    <pbundle_as_map name="imsvoice.amrwb_payload_description_bundle">
+        <pbundle_as_map name="110">
+            <int name="imsvoice.amr_codec_attribute_payload_format_int" value="1"/>
+        </pbundle_as_map>
+        <pbundle_as_map name="104">
+            <int name="imsvoice.amr_codec_attribute_payload_format_int" value="0"/>
+            <int name="imsvoice.codec_attribute_mode_change_capability_int" value="2"/>
+        </pbundle_as_map>
+    </pbundle_as_map>
+    <pbundle_as_map name="imsvoice.amrnb_payload_description_bundle">
+        <pbundle_as_map name="108">
+            <int name="imsvoice.amr_codec_attribute_payload_format_int" value="1"/>
+        </pbundle_as_map>
+        <pbundle_as_map name="102">
+            <int name="imsvoice.amr_codec_attribute_payload_format_int" value="0"/>
+            <int name="imsvoice.codec_attribute_mode_change_capability_int" value="2"/>
+        </pbundle_as_map>
     </pbundle_as_map>
 </carrier_config>

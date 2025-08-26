@@ -15,6 +15,9 @@
  * limitations under the License.
 -->
 <carrier_config>
+    <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1200"/>
+    <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1200"/>
+
     <!-- Previous solution was using 7077, but requirement is 8080 -->
     <int name="imsss.ut_as_server_port_int" value="8080"/>
 </carrier_config>
