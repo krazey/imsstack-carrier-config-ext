@@ -16,6 +16,61 @@
 -->
 <!-- carrier_name: Orange (Belgium) -->
 <carrier_config>
+    <!-- Aos -->
+    <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1100"/>
+    <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1100"/>
+    <int-array name="ims.geolocation_pidf_in_sip_invite_support_int_array" num="2">
+        <item value="2"/>
+        <item value="4"/>
+    </int-array>
+    <int-array name="ims.geolocation_pidf_in_sip_register_support_int_array" num="2">
+        <item value="2"/>
+        <item value="4"/>
+    </int-array>
+
+    <!-- Media -->
+    <pbundle_as_map name="imsvoice.amrnb_payload_description_bundle">
+        <pbundle_as_map name="100">
+            <int-array name="imsvoice.amr_codec_attribute_modeset_int_array" num="3">
+                <item value="0"/>
+                <item value="3"/>
+                <item value="6"/>
+            </int-array>
+        </pbundle_as_map>
+        <pbundle_as_map name="101">
+            <int-array name="imsvoice.amr_codec_attribute_modeset_int_array" num="3">
+                <item value="0"/>
+                <item value="3"/>
+                <item value="6"/>
+            </int-array>
+            <int name="imsvoice.amr_codec_attribute_payload_format_int" value="1"/>
+        </pbundle_as_map>
+    </pbundle_as_map>
+    <pbundle_as_map name="imsvoice.amrwb_payload_description_bundle">
+        <pbundle_as_map name="99">
+            <int name="imsvoice.amr_codec_attribute_payload_format_int" value="1"/>
+        </pbundle_as_map>
+        <pbundle_as_map name="98">
+            <int name="imsvoice.amr_codec_attribute_payload_format_int" value="0"/>
+            <int name="imsvoice.codec_attribute_mode_change_capability_int" value="2"/>
+        </pbundle_as_map>
+    </pbundle_as_map>
+    <pbundle_as_map name="imsvoice.evs_payload_description_bundle">
+        <pbundle_as_map name="96">
+            <int name="imsvoice.evs_codec_attribute_bandwidth_int" value="2"/>
+            <int-array name="imsvoice.evs_codec_attribute_bitrate_int_array" num="2">
+                <item value="3"/>
+                <item value="6"/>
+            </int-array>
+        </pbundle_as_map>
+        <pbundle_as_map name="97">
+            <int-array name="imsvoice.evs_codec_attribute_bitrate_int_array" num="2">
+                <item value="0"/>
+                <item value="6"/>
+            </int-array>
+        </pbundle_as_map>
+    </pbundle_as_map>
+
     <!-- Mts -->
     <int-array name="imssms.sms_rp_cause_values_to_fallback_int_array" num="23">
         <item value="1"/>

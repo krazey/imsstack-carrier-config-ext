@@ -22,40 +22,30 @@
     <!-- Previous solution was using 8090, and there is no requirements -->
     <int name="imsss.ut_as_server_port_int" value="8090"/>
     <int name="imsss.ut_transport_type_int" value="1"/>
-    <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
-        <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
-            <item value="102"/>
-            <item value="108"/>
-        </int-array>
-        <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
-            <item value="104"/>
-            <item value="110"/>
-        </int-array>
-        <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
-            <item value="97"/>
-        </int-array>
-        <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
-            <item value="96"/>
-        </int-array>
-    </pbundle_as_map>
     <pbundle_as_map name="imsvoice.amrwb_payload_description_bundle">
-        <pbundle_as_map name="104">
+        <pbundle_as_map name="100">
             <int name="imsvoice.amr_codec_attribute_payload_format_int" value="0"/>
+            <int name="imsvoice.codec_attribute_mode_change_capability_int" value="2"/>
+        </pbundle_as_map>
+        <pbundle_as_map name="105">
+            <int name="imsvoice.amr_codec_attribute_payload_format_int" value="1"/>
             <int name="imsvoice.codec_attribute_mode_change_capability_int" value="2"/>
         </pbundle_as_map>
         <pbundle_as_map name="110">
             <int name="imsvoice.amr_codec_attribute_payload_format_int" value="1"/>
-            <int name="imsvoice.codec_attribute_mode_change_capability_int" value="2"/>
         </pbundle_as_map>
     </pbundle_as_map>
     <pbundle_as_map name="imsvoice.amrnb_payload_description_bundle">
-        <pbundle_as_map name="102">
+        <pbundle_as_map name="98">
             <int name="imsvoice.amr_codec_attribute_payload_format_int" value="0"/>
+            <int name="imsvoice.codec_attribute_mode_change_capability_int" value="2"/>
+        </pbundle_as_map>
+        <pbundle_as_map name="103">
+            <int name="imsvoice.amr_codec_attribute_payload_format_int" value="1"/>
             <int name="imsvoice.codec_attribute_mode_change_capability_int" value="2"/>
         </pbundle_as_map>
         <pbundle_as_map name="108">
             <int name="imsvoice.amr_codec_attribute_payload_format_int" value="1"/>
-            <int name="imsvoice.codec_attribute_mode_change_capability_int" value="2"/>
         </pbundle_as_map>
     </pbundle_as_map>
     <string name="imsvoice.conference_factory_uri_string">sip:conference@factory.ims.mnc500.mcc302.3gppnetwork.org</string>
