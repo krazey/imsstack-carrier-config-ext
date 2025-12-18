@@ -36,6 +36,7 @@
 
     <!-- Aos -->
     <boolean name="ims.block_pcscf_on_reg_failure_bool" value="false"/>
+    <boolean name="ims.init_ipsec_setting_with_new_pcscf_bool" value="true"/>
     <boolean name="ims.required_init_reg_after_ims_call_end_on_reg_held_bool" value="true"/>
     <boolean name="ims.required_init_reg_after_ims_ecall_end_on_reg_held_bool" value="true"/>
     <boolean name="ims.update_ongoing_reg_retry_timer_on_ims_est_timer_expiry_bool" value="false"/>
