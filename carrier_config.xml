@@ -304,7 +304,7 @@
     </string-array>
     <string-array name="imsemergency.number_need_oir_string_array" num="0">
     </string-array>
-    <int-array name="imsvoice.rat_condition_for_not_waiting_dedicated_bearer_int_array" num="0">
+    <int-array name="imsvoice.rat_condition_for_not_waiting_dedicated_bearer_before_established_int_array" num="0">
     </int-array>
     <boolean name="imsvoice.trigger_dedicated_bearer_wait_timer_by_sending_initial_invite_bool" value="false"/>
     <boolean name="imsvoice.restart_dedicated_bearer_wait_timer_by_eps_fallback_bool" value="true"/>
