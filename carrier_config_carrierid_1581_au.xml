@@ -217,8 +217,8 @@
         <item value="483:1,5"/> <!-- SILENT_REINVITE_BY_RETRY_AFTER, CROSS_SIM_PERM_FAILURE -->
         <item value="484:1,5"/> <!-- SILENT_REINVITE_BY_RETRY_AFTER, CROSS_SIM_PERM_FAILURE -->
         <item value="485:1,5"/> <!-- SILENT_REINVITE_BY_RETRY_AFTER, CROSS_SIM_PERM_FAILURE -->
-        <item value="486:1,5"/> <!-- SILENT_REINVITE_BY_RETRY_AFTER, CROSS_SIM_PERM_FAILURE -->
-        <item value="487:1,5"/> <!-- SILENT_REINVITE_BY_RETRY_AFTER, CROSS_SIM_PERM_FAILURE -->
+        <item value="486:1"/> <!-- SILENT_REINVITE_BY_RETRY_AFTER -->
+        <item value="487:1"/> <!-- SILENT_REINVITE_BY_RETRY_AFTER -->
         <item value="488:1,5"/> <!-- SILENT_REINVITE_BY_RETRY_AFTER, CROSS_SIM_PERM_FAILURE -->
         <item value="489:1"/> <!-- SILENT_REINVITE_BY_RETRY_AFTER -->
         <item value="491:1,5"/> <!-- SILENT_REINVITE_BY_RETRY_AFTER, CROSS_SIM_PERM_FAILURE -->
