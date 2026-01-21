@@ -18,7 +18,6 @@
     <!-- Ims General -->
     <boolean name="ims.sip_compact_form_enabled_bool" value="true"/>
     <boolean name="ims.allow_sip_p_access_network_info_header_in_initial_register_bool" value="true"/>
-    <boolean name="ims.support_sip_session_id_header_bool" value="true"/>
 
     <!-- Aos -->
     <int name="ims.ims_establishment_time_for_nr_sec_int" value="0"/>

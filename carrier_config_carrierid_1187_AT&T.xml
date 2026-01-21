@@ -103,7 +103,6 @@
     <boolean name="imsss.ut_display_error_phrase_with_409_error_bool" value="true"/>
 
     <!-- MTC -->
-    <boolean name="ims.support_sip_session_id_header_bool" value="false"/>
     <int name="imsvoice.18x_timer_millis_int" value="-1"/>
     <boolean name="imsvoice.support_conference_refer_subscribe_bool" value="true"/>
     <boolean name="imsvoice.enable_conference_subscribe_by_participant_bool" value="false"/>
