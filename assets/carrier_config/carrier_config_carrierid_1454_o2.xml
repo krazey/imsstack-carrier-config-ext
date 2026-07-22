@@ -22,6 +22,7 @@
             <item value="0"/>
         </int-array>
     </pbundle_as_map>
+    <boolean name="imsvoice.wait_qos_for_incoming_invite_without_precondition_bool" value="false"/>
     <boolean name="imsemergency.release_epdn_upon_ecall_end_in_fake_mode_bool" value="true"/>
     <int name="imsemergency.preferred_emergency_registration_int" value="1"/>
     <int name="imsemergency.wait_time_millis_for_release_epdn_after_ecall_end_int" value="2000"/>
