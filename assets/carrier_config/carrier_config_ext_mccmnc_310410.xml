@@ -1,0 +1,1368 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- SPDX-License-Identifier: GPL-2.0-only -->
+<!-- Generated from the PhhIms carrier database; do not edit by hand. -->
+<carrier_config_list>
+    <!-- PhhIms mapping ATT_US; profile ATT VoLTE -->
+    <carrier_config>
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="20">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="21">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="22">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="23">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="24">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="25">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="26">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="27">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="28">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="29">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="30">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="2AC9">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="4102">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="4201">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="44FF">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="49FF">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="62FF">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:TFN; profile TFA VoLTE -->
+    <carrier_config gid1_prefix="63FF">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:GoogleGC; profile ATT GC VoLTE -->
+    <carrier_config gid1_prefix="69FF">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:TFN; profile TFA VoLTE -->
+    <carrier_config gid1_prefix="DDFF">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:TFN; profile TFA VoLTE -->
+    <carrier_config gid1_prefix="DEFF">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:DSH; profile DSA VoLTE -->
+    <carrier_config gid1_prefix="3430">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:DSH; profile DSA VoLTE -->
+    <carrier_config gid1_prefix="3432">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:DSH; profile DSA VoLTE -->
+    <carrier_config gid1_prefix="3434">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:DSH; profile DSA VoLTE -->
+    <carrier_config gid1_prefix="3436">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:DSH; profile DSA VoLTE -->
+    <carrier_config gid1_prefix="3438">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:DSH; profile DSA VoLTE -->
+    <carrier_config gid1_prefix="3440">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+    <!-- PhhIms mapping ATT_US:Private; profile ATT VoLTE -->
+    <carrier_config gid1_prefix="80FF">
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.sip_preferred_transport_int" value="2" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
+        <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
+        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="1" />
+        </int-array>
+        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="2">
+            <item value="0" />
+            <item value="2" />
+        </int-array>
+        <int-array name="ims.supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.carrier_policy_ims_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_volte_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_vowifi_enabled_bool" value="true" />
+        <boolean name="ims.carrier_policy_sms_over_ims_enabled_bool" value="true" />
+        <int-array name="imssms.sms_over_ims_supported_rats_int_array" num="4">
+            <item value="2" />
+            <item value="3" />
+            <item value="5" />
+            <item value="6" />
+        </int-array>
+        <boolean name="ims.registration_event_package_supported_bool" value="true" />
+        <boolean name="ims.gruu_enabled_bool" value="false" />
+        <int name="ims.registration_expiry_timer_sec_int" value="600000" />
+        <int name="ims.registration_retry_base_timer_millis_int" value="120000" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="7200000" />
+        <boolean name="ims.support_sdp_precondition_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="true" />
+        <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
+        <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+        <int name="imsvoice.ringback_timer_millis_int" value="180000" />
+        <int name="ims.max_allowed_network_mtu_int" value="1230" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <boolean name="imsvoice.audio_evs_support_bool" value="false" />
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,25 @@
+// SPDX-License-Identifier: Apache-2.0
+
+package {
+    default_applicable_licenses: ["imsstack_carrier_config_ext_license"],
+}
+
+license {
+    name: "imsstack_carrier_config_ext_license",
+    visibility: ["//visibility:public"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+        "SPDX-license-identifier-GPL-2.0-only",
+    ],
+    license_text: [
+        "LICENSES/Apache-2.0.txt",
+        "LICENSES/GPL-2.0-only.txt",
+    ],
+}
+
+android_library {
+    name: "imsstack-carrier-config-ext",
+    manifest: "AndroidManifest.xml",
+    asset_dirs: ["assets"],
+    visibility: ["//visibility:public"],
+}
