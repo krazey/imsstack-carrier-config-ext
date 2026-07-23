@@ -50,7 +50,7 @@
     </carrier_config>
     <!-- PhhIms mapping Vodafone_GB:Talkmobile; profile VODAFONE UK IMS VoLTE for VOD -->
     <carrier_config gid1_prefix="C1">
-        <int name="ims.request_uri_type_int" value="1" />
+        <int name="ims.request_uri_type_int" value="0" />
         <int name="ims.sip_preferred_transport_int" value="2" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />

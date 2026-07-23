@@ -47,6 +47,12 @@ POLICY_TRANSPORT = {
     "TLS": 3,
 }
 
+# Trace-validated exceptions that intentionally differ from a shared profile.
+REQUEST_URI_TYPE_OVERRIDES = {
+    # Talkmobile VoWiFi rejects local service codes in SIP URI form.
+    ("234015", "vodafone_gb:talkmobile"): 0,
+}
+
 
 @dataclass(frozen=True)
 class Mapping:
@@ -157,12 +163,18 @@ def fragment_filters(mapping: Mapping) -> dict[str, str]:
 
 def populate_fragment(
     fragment: ET.Element,
+    mapping: Mapping,
     profile: ET.Element,
     service_switch: ET.Element | None,
 ) -> None:
-    remote_uri_type = profile.get("remote_uri_type", "").lower()
-    if remote_uri_type in {"tel", "sip"}:
-        add_int(fragment, "ims.request_uri_type_int", 0 if remote_uri_type == "tel" else 1)
+    request_uri_type = REQUEST_URI_TYPE_OVERRIDES.get(
+        (mapping.canonical_mccmnc, mapping.mno.lower())
+    )
+    if request_uri_type is None:
+        remote_uri_type = profile.get("remote_uri_type", "").lower()
+        if remote_uri_type in {"tel", "sip"}:
+            request_uri_type = 0 if remote_uri_type == "tel" else 1
+    add_int(fragment, "ims.request_uri_type_int", request_uri_type)
 
     transport = TRANSPORT.get(profile.get("transport", "").lower())
     add_int(fragment, "ims.sip_preferred_transport_int", transport)
@@ -432,7 +444,7 @@ def render_file(
             f" PhhIms mapping {mapping.mno}; profile {profile.get('name', '')} "
         ))
         fragment = ET.SubElement(root, "carrier_config", fragment_filters(mapping))
-        populate_fragment(fragment, profile, service_switch)
+        populate_fragment(fragment, mapping, profile, service_switch)
 
     if policy is not None:
         root.append(ET.Comment(
