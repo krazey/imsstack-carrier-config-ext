@@ -6,6 +6,7 @@
     <carrier_config>
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -42,6 +43,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -53,6 +55,7 @@
     <carrier_config gid1_prefix="20">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -89,6 +92,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -100,6 +104,7 @@
     <carrier_config gid1_prefix="21">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -136,6 +141,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -147,6 +153,7 @@
     <carrier_config gid1_prefix="22">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -183,6 +190,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -194,6 +202,7 @@
     <carrier_config gid1_prefix="23">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -230,6 +239,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -241,6 +251,7 @@
     <carrier_config gid1_prefix="24">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -277,6 +288,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -288,6 +300,7 @@
     <carrier_config gid1_prefix="25">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -324,6 +337,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -335,6 +349,7 @@
     <carrier_config gid1_prefix="26">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -371,6 +386,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -382,6 +398,7 @@
     <carrier_config gid1_prefix="27">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -418,6 +435,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -429,6 +447,7 @@
     <carrier_config gid1_prefix="28">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -465,6 +484,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -476,6 +496,7 @@
     <carrier_config gid1_prefix="29">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -512,6 +533,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -523,6 +545,7 @@
     <carrier_config gid1_prefix="30">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -559,6 +582,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -570,6 +594,7 @@
     <carrier_config gid1_prefix="2AC9">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -606,6 +631,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -617,6 +643,7 @@
     <carrier_config gid1_prefix="4102">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -653,6 +680,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -664,6 +692,7 @@
     <carrier_config gid1_prefix="4201">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -700,6 +729,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -711,6 +741,7 @@
     <carrier_config gid1_prefix="44FF">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -747,6 +778,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -758,6 +790,7 @@
     <carrier_config gid1_prefix="49FF">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -794,6 +827,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -805,6 +839,7 @@
     <carrier_config gid1_prefix="62FF">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -841,6 +876,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -852,6 +888,7 @@
     <carrier_config gid1_prefix="69FF">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -888,6 +925,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -899,6 +937,7 @@
     <carrier_config gid1_prefix="DDFF">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -935,6 +974,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -946,6 +986,7 @@
     <carrier_config gid1_prefix="DEFF">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -982,6 +1023,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />
@@ -993,6 +1035,7 @@
     <carrier_config gid1_prefix="80FF">
         <int name="ims.request_uri_type_int" value="1" />
         <int name="ims.sip_preferred_transport_int" value="2" />
+        <int name="ims.ims_preferred_iptype_int" value="1" />
         <boolean name="ims.sip_over_ipsec_enabled_bool" value="true" />
         <boolean name="ims.sip_over_ipsec_enabled_in_roaming_bool" value="true" />
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="2">
@@ -1029,6 +1072,7 @@
         <boolean name="imsvoice.voice_qos_precondition_supported_on_iwlan_bool" value="true" />
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="45000" />
         <int name="imsvoice.ringback_timer_millis_int" value="180000" />
         <int name="ims.max_allowed_network_mtu_int" value="1230" />

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- SPDX-License-Identifier: GPL-2.0-only -->
+<!-- Generated from the PhhIms carrier database; do not edit by hand. -->
+<carrier_config_list>
+    <!-- PhhIms reviewed policy Vodafone Turkey -->
+    <carrier_config>
+        <string-array name="imsvoice.plain_tel_short_codes_string_array" num="1">
+            <item value="542" />
+        </string-array>
+    </carrier_config>
+</carrier_config_list>

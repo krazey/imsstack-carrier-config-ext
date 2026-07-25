@@ -21,14 +21,6 @@
             <item value="Proxy-Require" />
             <item value="Supported" />
         </string-array>
-        <string-array name="imsvoice.initial_invite_headers_to_set_string_array" num="6">
-            <item value="Require: sec-agree" />
-            <item value="Proxy-Require: sec-agree" />
-            <item value="Supported: sec-agree" />
-            <item value="Allow: INVITE, ACK, CANCEL, BYE, OPTIONS" />
-            <item value="Request-Disposition: no-fork" />
-            <item value="Expires: 7200" />
-        </string-array>
         <boolean name="imsvoice.initial_invite_compact_contact_bool" value="true" />
         <boolean name="ims.support_sdp_precondition_bool" value="false" />
         <boolean name="imsvoice.voice_qos_precondition_supported_bool" value="false" />
@@ -43,6 +35,14 @@
         </pbundle_as_map>
         <string name="imssms.sms_rp_destination_address_string">+6596197777</string>
         <string name="imssms.sms_gateway_uri_string">sip:+6596197777@ims.singtel.com</string>
+        <string-array name="imsvoice.initial_invite_headers_to_set_string_array" num="6">
+            <item value="Require: sec-agree" />
+            <item value="Proxy-Require: sec-agree" />
+            <item value="Supported: sec-agree" />
+            <item value="Allow: INVITE, ACK, CANCEL, BYE, OPTIONS" />
+            <item value="Request-Disposition: no-fork" />
+            <item value="Expires: 7200" />
+        </string-array>
         <int-array name="ims.ipsec_authentication_algorithms_int_array" num="1">
             <item value="1" />
         </int-array>

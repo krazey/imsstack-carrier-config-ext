@@ -168,6 +168,39 @@ def switch_for_mapping(mapping: Mapping, switches: list[ET.Element]) -> ET.Eleme
     return base[-1] if base else None
 
 
+def global_for_mapping(mapping: Mapping, globals_: list[ET.Element]) -> ET.Element | None:
+    exact = [
+        settings for settings in globals_
+        if settings.get("mnoname", "").lower() == mapping.mno.lower()
+    ]
+    if exact:
+        return exact[-1]
+    base_mno = mapping.mno.split(":", 1)[0]
+    base = [
+        settings for settings in globals_
+        if settings.get("mnoname", "").lower() == base_mno.lower()
+    ]
+    return base[-1] if base else None
+
+
+def expand_csfb_rules(values: list[str]) -> list[int]:
+    status_codes: set[int] = set()
+    for value in values:
+        token = value.strip()
+        if token.isdigit():
+            status_codes.add(int(token))
+            continue
+        try:
+            pattern = re.compile(token.replace("x", "[0-9]"), re.IGNORECASE)
+        except re.error:
+            continue
+        status_codes.update(
+            code for code in range(300, 700)
+            if pattern.fullmatch(str(code))
+        )
+    return sorted(status_codes)
+
+
 def fragment_filters(mapping: Mapping) -> dict[str, str]:
     filters: dict[str, str] = {}
     if mapping.subset and mapping.source_plmn.isdigit():
@@ -186,6 +219,7 @@ def populate_fragment(
     mapping: Mapping,
     profile: ET.Element,
     service_switch: ET.Element | None,
+    global_settings: ET.Element | None,
 ) -> None:
     request_uri_type = None
     remote_uri_type = profile.get("remote_uri_type", "").lower()
@@ -195,6 +229,10 @@ def populate_fragment(
 
     transport = TRANSPORT.get(profile.get("transport", "").lower())
     add_int(fragment, "ims.sip_preferred_transport_int", transport)
+
+    ip_version = profile.get("ipver", "").lower()
+    if ip_version in {"ipv4", "ipv6"}:
+        add_int(fragment, "ims.ims_preferred_iptype_int", 0 if ip_version == "ipv4" else 1)
 
     support_ipsec = bool_value(profile.get("support_ipsec"))
     add_bool(fragment, "ims.sip_over_ipsec_enabled_bool", support_ipsec)
@@ -292,6 +330,13 @@ def populate_fragment(
         "ims.registration_retry_max_timer_millis_int",
         retry_max * 1000 if retry_max else None,
     )
+    if profile.get("reg_retry_pcscf_policy_on_403", "").lower() == "same_pcscf":
+        add_int_array(fragment, "ims.reg_retry_err_code_for_same_pcscf_int_array", [403])
+        add_int_array(
+            fragment,
+            "ims.rereg_retry_err_code_for_init_reg_with_same_pcscf_int_array",
+            [403],
+        )
 
     precondition = bool_value(profile.get("use_precondition"))
     add_bool(fragment, "ims.support_sdp_precondition_bool", precondition)
@@ -319,6 +364,12 @@ def populate_fragment(
     )
     ringing = positive_int(profile.get("ringing_timer"))
     ringback = positive_int(profile.get("ringback_timer"))
+    invite_timeout = positive_int(profile.get("invite_timeout"))
+    add_int(
+        fragment,
+        "imsvoice.18x_timer_millis_int",
+        invite_timeout * 1000 if invite_timeout else None,
+    )
     add_int(
         fragment,
         "imsvoice.ringing_timer_millis_int",
@@ -337,11 +388,38 @@ def populate_fragment(
         add_int(fragment, "ims.ipv6_sip_mtu_size_cellular_int", mtu)
 
     keep_alive = positive_int(profile.get("keep_alive_interval"))
-    if keep_alive and (
-        profile.get("keep_alive_mode_mo", "none").lower() != "none"
-        or profile.get("keep_alive_mode_mt", "none").lower() != "none"
-    ):
+    outgoing_keep_alive = {
+        "none": 0,
+        "outgoing": 1,
+        "alerting": 2,
+    }.get(profile.get("keep_alive_mode_mo", "none").lower(), 0)
+    incoming_keep_alive = profile.get("keep_alive_mode_mt", "none").lower() == "incoming"
+    if keep_alive and (outgoing_keep_alive != 0 or incoming_keep_alive):
         add_int(fragment, "imsvoice.send_udp_keep_alive_interval_time_millis_int", keep_alive)
+        add_int(
+            fragment,
+            "imsvoice.send_udp_keep_alive_outgoing_mode_int",
+            outgoing_keep_alive,
+        )
+        add_bool(
+            fragment,
+            "imsvoice.send_udp_keep_alive_incoming_bool",
+            incoming_keep_alive,
+        )
+        add_bool(
+            fragment,
+            "imsvoice.send_udp_keep_alive_delay_first_packet_bool",
+            mapping.canonical_mccmnc[:3] in {"460", "461"},
+        )
+
+    if global_settings is not None:
+        csfb_rules = csv(global_settings.get("all_csfb_error_code_list"))
+        csfb_rules += csv(global_settings.get("voice_csfb_error_code_list"))
+        add_string_array(
+            fragment,
+            "imsvoice.reject_code_and_action_set_string_array",
+            [f"{code}:0" for code in expand_csfb_rules(csfb_rules)],
+        )
 
     # Android 17 ImsMedia advertises EVS in policy but its encoder and decoder are TODO stubs.
     add_bool(fragment, "imsvoice.audio_evs_support_bool", False)
@@ -359,12 +437,17 @@ def read_policy(policy_file: Path | None) -> dict[str, ET.Element]:
 
 
 def policy_values(carrier: ET.Element) -> tuple[
-    dict[str, bool], dict[str, int], dict[str, str], dict[str, list[str]]
+    dict[str, bool],
+    dict[str, int],
+    dict[str, str],
+    dict[str, list[str]],
+    list[str],
 ]:
     booleans: dict[str, bool] = {}
     longs: dict[str, int] = {}
     strings: dict[str, str] = {}
     arrays: dict[str, list[str]] = {}
+    register_headers: list[str] = []
     for child in carrier:
         name = child.get("name", "")
         if child.tag == "boolean" and name:
@@ -378,11 +461,16 @@ def policy_values(carrier: ET.Element) -> tuple[
             strings[name] = child.get("value", "")
         elif child.tag == "string-array" and name:
             arrays[name] = [item.get("value", "") for item in child.findall("item")]
-    return booleans, longs, strings, arrays
+        elif child.tag == "register-header":
+            value = child.get("value", "")
+            if name and value:
+                register_headers.append(f"{name}: {value}")
+    return booleans, longs, strings, arrays, register_headers
 
 
 def populate_policy_fragment(fragment: ET.Element, carrier: ET.Element) -> None:
-    booleans, longs, strings, arrays = policy_values(carrier)
+    booleans, longs, strings, arrays, register_headers = policy_values(carrier)
+    initial_invite_headers: list[str] = []
 
     if "subscribe_reg_event" in booleans:
         add_bool(fragment, "ims.registration_event_package_supported_bool",
@@ -404,6 +492,52 @@ def populate_policy_fragment(fragment: ET.Element, carrier: ET.Element) -> None:
     if "control_socket_udp" in booleans:
         add_int(fragment, "ims.sip_preferred_transport_int",
                 0 if booleans["control_socket_udp"] else 1)
+    if "require_nonsess_aka" in booleans:
+        add_bool(
+            fragment,
+            "ims.force_non_session_aka_for_register_bool",
+            booleans["require_nonsess_aka"],
+        )
+    add_string_array(
+        fragment,
+        "ims.registration_headers_to_set_string_array",
+        register_headers,
+    )
+
+    add_string_array(
+        fragment,
+        "imsvoice.force_csfb_dial_strings_string_array",
+        arrays.get("force_csfb_dial_strings", []),
+    )
+    add_string_array(
+        fragment,
+        "imsvoice.plain_tel_short_codes_string_array",
+        arrays.get("plain_tel_short_codes", []),
+    )
+    if booleans.get("kazakhstan_mobile_without_country_code"):
+        add_string(fragment, "imsvoice.outgoing_number_country_code_string", "7")
+        add_string(fragment, "imsvoice.outgoing_number_national_prefix_string", "7")
+        add_int(fragment, "imsvoice.outgoing_number_national_length_int", 10)
+        add_string(fragment, "imsvoice.outgoing_number_trunk_prefix_string", "8")
+
+    csfb_status_codes = [
+        value
+        for value in arrays.get("invite_csfb_status_codes", [])
+        if value.isdigit()
+    ]
+    add_string_array(
+        fragment,
+        "imsvoice.reject_code_and_action_set_string_array",
+        [f"{value}:0" for value in csfb_status_codes],
+    )
+
+    if strings.get("outgoing_visited_network_policy", "").upper() == "REGISTRATION_REALM":
+        mccmnc = carrier.get("mccmnc", "")
+        if len(mccmnc) == 6 and mccmnc.isdigit():
+            initial_invite_headers.append(
+                "P-Visited-Network-ID: "
+                f"\"ims.mnc{mccmnc[3:]}.mcc{mccmnc[:3]}.3gppnetwork.org\""
+            )
 
     transport = POLICY_TRANSPORT.get(strings.get("transport_policy", "").upper())
     add_int(fragment, "ims.sip_preferred_transport_int", transport)
@@ -444,18 +578,14 @@ def populate_policy_fragment(fragment: ET.Element, carrier: ET.Element) -> None:
                 "Supported",
             ],
         )
-        add_string_array(
-            fragment,
-            "imsvoice.initial_invite_headers_to_set_string_array",
-            [
-                "Require: sec-agree",
-                "Proxy-Require: sec-agree",
-                "Supported: sec-agree",
-                "Allow: INVITE, ACK, CANCEL, BYE, OPTIONS",
-                "Request-Disposition: no-fork",
-                "Expires: 7200",
-            ],
-        )
+        initial_invite_headers.extend([
+            "Require: sec-agree",
+            "Proxy-Require: sec-agree",
+            "Supported: sec-agree",
+            "Allow: INVITE, ACK, CANCEL, BYE, OPTIONS",
+            "Request-Disposition: no-fork",
+            "Expires: 7200",
+        ])
         add_bool(fragment, "imsvoice.initial_invite_compact_contact_bool", True)
         add_bool(fragment, "ims.support_sdp_precondition_bool", False)
         add_bool(fragment, "imsvoice.voice_qos_precondition_supported_bool", False)
@@ -479,6 +609,12 @@ def populate_policy_fragment(fragment: ET.Element, carrier: ET.Element) -> None:
             "imssms.sms_gateway_uri_string",
             "sip:+6596197777@ims.singtel.com",
         )
+
+    add_string_array(
+        fragment,
+        "imsvoice.initial_invite_headers_to_set_string_array",
+        initial_invite_headers,
+    )
 
     direct_ints = {
         "registration_retry_base_ms": "ims.registration_retry_base_timer_millis_int",
@@ -525,30 +661,32 @@ def render_xml(root: ET.Element) -> bytes:
 
 def render_baseline_file(
     mccmnc: str,
-    records: list[tuple[Mapping, ET.Element, ET.Element | None]],
+    records: list[tuple[Mapping, ET.Element, ET.Element | None, ET.Element | None]],
 ) -> bytes:
     root = ET.Element("carrier_config_list")
-    for mapping, profile, service_switch in sorted(records, key=lambda record: (
-        record[0].specificity, record[0].index
-    )):
+    for mapping, profile, service_switch, global_settings in sorted(
+        records,
+        key=lambda record: (record[0].specificity, record[0].index),
+    ):
         root.append(ET.Comment(
             f" PhhIms mapping {mapping.mno}; profile {profile.get('name', '')} "
         ))
         fragment = ET.SubElement(root, "carrier_config", fragment_filters(mapping))
-        populate_fragment(fragment, mapping, profile, service_switch)
+        populate_fragment(fragment, mapping, profile, service_switch, global_settings)
 
     return render_xml(root)
 
 
 def render_override_file(
     mccmnc: str,
-    records: list[tuple[Mapping, ET.Element, ET.Element | None]],
+    records: list[tuple[Mapping, ET.Element, ET.Element | None, ET.Element | None]],
     policy: ET.Element | None,
 ) -> bytes | None:
     root = ET.Element("carrier_config_list")
-    for mapping, _profile, _service_switch in sorted(records, key=lambda record: (
-        record[0].specificity, record[0].index
-    )):
+    for mapping, _profile, _service_switch, _global_settings in sorted(
+        records,
+        key=lambda record: (record[0].specificity, record[0].index),
+    ):
         request_uri_type = REVIEWED_REQUEST_URI_TYPE_OVERRIDES.get(
             (mapping.canonical_mccmnc, mapping.mno.lower())
         )
@@ -578,10 +716,15 @@ def generate(source: Path, output: Path, policy_file: Path | None, check: bool) 
     profiles_node = database.find("profiles")
     mappings_node = database.find("mappings")
     switches_node = database.find("switches")
+    globals_node = database.find("global-settings")
     profiles = list(profiles_node) if profiles_node is not None else []
     switches = list(switches_node) if switches_node is not None else []
+    globals_ = list(globals_node) if globals_node is not None else []
     policies = read_policy(policy_file)
-    grouped: dict[str, list[tuple[Mapping, ET.Element, ET.Element | None]]] = defaultdict(list)
+    grouped: dict[
+        str,
+        list[tuple[Mapping, ET.Element, ET.Element | None, ET.Element | None]],
+    ] = defaultdict(list)
     skipped = 0
 
     for index, element in enumerate(mappings_node if mappings_node is not None else []):
@@ -603,7 +746,14 @@ def generate(source: Path, output: Path, policy_file: Path | None, check: bool) 
         if profile is None:
             skipped += 1
             continue
-        grouped[canonical].append((mapping, profile, switch_for_mapping(mapping, switches)))
+        grouped[canonical].append(
+            (
+                mapping,
+                profile,
+                switch_for_mapping(mapping, switches),
+                global_for_mapping(mapping, globals_),
+            )
+        )
 
     effective_policies = dict(policies)
     for source_mccmnc in REVIEWED_POLICY_MNO_ALIAS_SOURCES:
@@ -613,12 +763,12 @@ def generate(source: Path, output: Path, policy_file: Path | None, check: bool) 
             continue
         source_mnos = {
             mapping.mno.lower()
-            for mapping, _profile, _switch in source_records
+            for mapping, _profile, _switch, _global in source_records
         }
         for mccmnc, records in grouped.items():
             if any(
                 mapping.mno.lower() in source_mnos
-                for mapping, _profile, _switch in records
+                for mapping, _profile, _switch, _global in records
             ):
                 effective_policies.setdefault(mccmnc, policy)
 

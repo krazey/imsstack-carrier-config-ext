@@ -5,6 +5,18 @@
     <!-- PhhIms reviewed policy Tele2 Kazakhstan -->
     <carrier_config>
         <boolean name="ims.gruu_enabled_bool" value="false" />
+        <string name="imsvoice.outgoing_number_country_code_string">7</string>
+        <string name="imsvoice.outgoing_number_national_prefix_string">7</string>
+        <int name="imsvoice.outgoing_number_national_length_int" value="10" />
+        <string name="imsvoice.outgoing_number_trunk_prefix_string">8</string>
+        <string-array name="imsvoice.reject_code_and_action_set_string_array" num="3">
+            <item value="380:0" />
+            <item value="403:0" />
+            <item value="1117:0" />
+        </string-array>
+        <string-array name="imsvoice.initial_invite_headers_to_set_string_array" num="1">
+            <item value="P-Visited-Network-ID: &quot;ims.mnc077.mcc401.3gppnetwork.org&quot;" />
+        </string-array>
         <int name="imsvoice.ringing_timer_millis_int" value="120000" />
         <int name="imsvoice.ringback_timer_millis_int" value="120000" />
     </carrier_config>

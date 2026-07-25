@@ -40,6 +40,7 @@
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.session_expires_timer_sec_int" value="1800" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="90000" />
         <int name="imsvoice.ringback_timer_millis_int" value="90000" />
         <int name="ims.max_allowed_network_mtu_int" value="1440" />

@@ -5,5 +5,6 @@
     <!-- PhhIms reviewed policy LG Uplus Korea -->
     <carrier_config>
         <int name="ims.sip_preferred_transport_int" value="0" />
+        <boolean name="ims.force_non_session_aka_for_register_bool" value="true" />
     </carrier_config>
 </carrier_config_list>

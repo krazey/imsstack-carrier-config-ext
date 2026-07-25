@@ -39,12 +39,31 @@
         <boolean name="imsvoice.carrier_volte_roaming_available_bool" value="true" />
         <int name="imsvoice.session_expires_timer_sec_int" value="1800" />
         <int name="imsvoice.minimum_session_expires_timer_sec_int" value="90" />
+        <int name="imsvoice.18x_timer_millis_int" value="180000" />
         <int name="imsvoice.ringing_timer_millis_int" value="80000" />
         <int name="imsvoice.ringback_timer_millis_int" value="80000" />
         <int name="ims.max_allowed_network_mtu_int" value="1300" />
         <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1300" />
         <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1300" />
         <int name="imsvoice.send_udp_keep_alive_interval_time_millis_int" value="8000" />
+        <int name="imsvoice.send_udp_keep_alive_outgoing_mode_int" value="2" />
+        <boolean name="imsvoice.send_udp_keep_alive_incoming_bool" value="true" />
+        <boolean name="imsvoice.send_udp_keep_alive_delay_first_packet_bool" value="true" />
+        <string-array name="imsvoice.reject_code_and_action_set_string_array" num="13">
+            <item value="380:0" />
+            <item value="382:0" />
+            <item value="400:0" />
+            <item value="403:0" />
+            <item value="404:0" />
+            <item value="410:0" />
+            <item value="488:0" />
+            <item value="500:0" />
+            <item value="502:0" />
+            <item value="503:0" />
+            <item value="1117:0" />
+            <item value="1701:0" />
+            <item value="2502:0" />
+        </string-array>
         <boolean name="imsvoice.audio_evs_support_bool" value="false" />
     </carrier_config>
 </carrier_config_list>

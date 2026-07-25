@@ -51,6 +51,18 @@ Reviewed policies may also declare an explicit MNO alias. This preserves
 PhhIms realm-selected behavior for SingTel mappings `525001`, `525002`, and
 `525096` without adding carrier-name checks to ImsStack.
 
+Reviewed policy translation also covers exact forced-CSFB dial strings, exact
+TEL short codes, E.164 national-number normalization, REGISTER header
+overrides, registration-only non-session AKA, INVITE CSFB responses, and
+P-Visited-Network-ID. These mechanisms remain inactive unless the reviewed
+carrier policy requests them.
+
+Compatibility profiles also transfer preferred IP family, INVITE-to-18x
+timeout, directional call-signaling keep-alive, same-P-CSCF retry on 403, and
+normal-call CSFB responses. Samsung response classes such as `5xx` are expanded
+to exact status codes during generation so the runtime configuration remains
+data-only.
+
 ## Refreshing from PhhIms
 
 Generated files are committed; normal product builds do not need PhhIms or
