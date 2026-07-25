@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- SPDX-License-Identifier: GPL-2.0-only -->
+<!-- Generated from the PhhIms carrier database; do not edit by hand. -->
+<carrier_config_list>
+    <!-- PhhIms reviewed policy A1 Croatia -->
+    <carrier_config>
+        <boolean name="ims.registration_event_package_supported_bool" value="false" />
+    </carrier_config>
+</carrier_config_list>

@@ -13,7 +13,8 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
-FILE_PREFIX = "carrier_config_ext_mccmnc_"
+BASELINE_FILE_PREFIX = "carrier_config_ext_mccmnc_"
+OVERRIDE_FILE_PREFIX = "carrier_config_override_mccmnc_"
 
 TRANSPORT = {
     "udp": 0,
@@ -48,9 +49,15 @@ POLICY_TRANSPORT = {
 }
 
 # Trace-validated exceptions that intentionally differ from a shared profile.
-REQUEST_URI_TYPE_OVERRIDES = {
+REVIEWED_REQUEST_URI_TYPE_OVERRIDES = {
     # Talkmobile VoWiFi rejects local service codes in SIP URI form.
     ("234015", "vodafone_gb:talkmobile"): 0,
+}
+
+# PhhIms also selects the SingTel stock policy by IMS realm. Mirror that
+# behavior for every MCC-MNC mapping that shares the reviewed policy's MNO.
+REVIEWED_POLICY_MNO_ALIAS_SOURCES = {
+    "525001",
 }
 
 
@@ -97,12 +104,25 @@ def add_int(parent: ET.Element, name: str, value: int | None) -> None:
         ET.SubElement(parent, "int", name=name, value=str(value))
 
 
+def add_string(parent: ET.Element, name: str, value: str | None) -> None:
+    if value:
+        ET.SubElement(parent, "string", name=name).text = value
+
+
 def add_int_array(parent: ET.Element, name: str, values: list[int]) -> None:
     if not values:
         return
     array = ET.SubElement(parent, "int-array", name=name, num=str(len(values)))
     for value in values:
         ET.SubElement(array, "item", value=str(value))
+
+
+def add_string_array(parent: ET.Element, name: str, values: list[str]) -> None:
+    if not values:
+        return
+    array = ET.SubElement(parent, "string-array", name=name, num=str(len(values)))
+    for value in values:
+        ET.SubElement(array, "item", value=value)
 
 
 def exact_regex(value: str) -> str:
@@ -167,13 +187,10 @@ def populate_fragment(
     profile: ET.Element,
     service_switch: ET.Element | None,
 ) -> None:
-    request_uri_type = REQUEST_URI_TYPE_OVERRIDES.get(
-        (mapping.canonical_mccmnc, mapping.mno.lower())
-    )
-    if request_uri_type is None:
-        remote_uri_type = profile.get("remote_uri_type", "").lower()
-        if remote_uri_type in {"tel", "sip"}:
-            request_uri_type = 0 if remote_uri_type == "tel" else 1
+    request_uri_type = None
+    remote_uri_type = profile.get("remote_uri_type", "").lower()
+    if remote_uri_type in {"tel", "sip"}:
+        request_uri_type = 0 if remote_uri_type == "tel" else 1
     add_int(fragment, "ims.request_uri_type_int", request_uri_type)
 
     transport = TRANSPORT.get(profile.get("transport", "").lower())
@@ -394,9 +411,74 @@ def populate_policy_fragment(fragment: ET.Element, carrier: ET.Element) -> None:
     if uri_type:
         add_int(fragment, "ims.request_uri_type_int", 0 if uri_type == "TEL" else 1)
     if strings.get("outgoing_invite_shape", "").upper() == "SINGTEL_COMPACT_STOCK":
-        # This enables RFC compact header names. Singtel's narrower header whitelist still needs
-        # packet-trace validation before adding a native formatter policy.
         add_bool(fragment, "ims.sip_compact_form_enabled_bool", True)
+        add_string(
+            fragment,
+            "imsvoice.outgoing_request_uri_domain_string",
+            "ims.singtel.com",
+        )
+        add_string(
+            fragment,
+            "imsvoice.outgoing_local_number_prefix_string",
+            "+65",
+        )
+        add_int(fragment, "imsvoice.outgoing_local_number_length_int", 8)
+        add_bool(
+            fragment,
+            "imsvoice.outgoing_request_uri_user_phone_parameter_bool",
+            False,
+        )
+        add_string_array(
+            fragment,
+            "imsvoice.initial_invite_headers_to_remove_string_array",
+            [
+                "Accept",
+                "Accept-Contact",
+                "Feature-Caps",
+                "P-Early-Media",
+                "P-Access-Network-Info",
+                "Session-Expires",
+                "Min-SE",
+                "Require",
+                "Proxy-Require",
+                "Supported",
+            ],
+        )
+        add_string_array(
+            fragment,
+            "imsvoice.initial_invite_headers_to_set_string_array",
+            [
+                "Require: sec-agree",
+                "Proxy-Require: sec-agree",
+                "Supported: sec-agree",
+                "Allow: INVITE, ACK, CANCEL, BYE, OPTIONS",
+                "Request-Disposition: no-fork",
+                "Expires: 7200",
+            ],
+        )
+        add_bool(fragment, "imsvoice.initial_invite_compact_contact_bool", True)
+        add_bool(fragment, "ims.support_sdp_precondition_bool", False)
+        add_bool(fragment, "imsvoice.voice_qos_precondition_supported_bool", False)
+        add_bool(fragment, "imsvoice.audio_evs_support_bool", False)
+        add_int(fragment, "imsvoice.audio_as_bandwidth_kbps_int", 0)
+        add_int(fragment, "imsvoice.audio_ptime_millis_int", 20)
+        add_int(fragment, "imsvoice.audio_maxptime_millis_int", -1)
+        payloads = ET.SubElement(
+            fragment,
+            "pbundle_as_map",
+            name="imsvoice.audio_codec_capability_payload_types_bundle",
+        )
+        add_int_array(payloads, "imsvoice.amrnb_payload_type_int_array", [97])
+        add_string(
+            fragment,
+            "imssms.sms_rp_destination_address_string",
+            "+6596197777",
+        )
+        add_string(
+            fragment,
+            "imssms.sms_gateway_uri_string",
+            "sip:+6596197777@ims.singtel.com",
+        )
 
     direct_ints = {
         "registration_retry_base_ms": "ims.registration_retry_base_timer_millis_int",
@@ -431,10 +513,19 @@ def populate_policy_fragment(fragment: ET.Element, carrier: ET.Element) -> None:
     add_int_array(fragment, "ims.ipsec_encryption_algorithms_int_array", encryption)
 
 
-def render_file(
+def render_xml(root: ET.Element) -> bytes:
+    ET.indent(root, space="    ")
+    body = ET.tostring(root, encoding="utf-8", xml_declaration=True)
+    notice = (
+        b"\n<!-- SPDX-License-Identifier: GPL-2.0-only -->\n"
+        b"<!-- Generated from the PhhIms carrier database; do not edit by hand. -->\n"
+    )
+    return body.split(b"\n", 1)[0] + notice + body.split(b"\n", 1)[1] + b"\n"
+
+
+def render_baseline_file(
     mccmnc: str,
     records: list[tuple[Mapping, ET.Element, ET.Element | None]],
-    policy: ET.Element | None,
 ) -> bytes:
     root = ET.Element("carrier_config_list")
     for mapping, profile, service_switch in sorted(records, key=lambda record: (
@@ -446,22 +537,40 @@ def render_file(
         fragment = ET.SubElement(root, "carrier_config", fragment_filters(mapping))
         populate_fragment(fragment, mapping, profile, service_switch)
 
-    if policy is not None:
-        root.append(ET.Comment(
-            f" PhhIms reviewed policy {policy.get('name', mccmnc)} "
-        ))
-        fragment = ET.SubElement(root, "carrier_config")
-        populate_policy_fragment(fragment, policy)
-        if len(fragment) == 0:
-            root.remove(fragment)
+    return render_xml(root)
 
-    ET.indent(root, space="    ")
-    body = ET.tostring(root, encoding="utf-8", xml_declaration=True)
-    notice = (
-        b"\n<!-- SPDX-License-Identifier: GPL-2.0-only -->\n"
-        b"<!-- Generated from the PhhIms carrier database; do not edit by hand. -->\n"
-    )
-    return body.split(b"\n", 1)[0] + notice + body.split(b"\n", 1)[1] + b"\n"
+
+def render_override_file(
+    mccmnc: str,
+    records: list[tuple[Mapping, ET.Element, ET.Element | None]],
+    policy: ET.Element | None,
+) -> bytes | None:
+    root = ET.Element("carrier_config_list")
+    for mapping, _profile, _service_switch in sorted(records, key=lambda record: (
+        record[0].specificity, record[0].index
+    )):
+        request_uri_type = REVIEWED_REQUEST_URI_TYPE_OVERRIDES.get(
+            (mapping.canonical_mccmnc, mapping.mno.lower())
+        )
+        if request_uri_type is None:
+            continue
+        fragment = ET.Element("carrier_config", fragment_filters(mapping))
+        add_int(fragment, "ims.request_uri_type_int", request_uri_type)
+        root.append(ET.Comment(
+            f" Reviewed mapping exception {mapping.mno} "
+        ))
+        root.append(fragment)
+
+    if policy is not None:
+        fragment = ET.Element("carrier_config")
+        populate_policy_fragment(fragment, policy)
+        if len(fragment) > 0:
+            root.append(ET.Comment(
+                f" PhhIms reviewed policy {policy.get('name', mccmnc)} "
+            ))
+            root.append(fragment)
+
+    return render_xml(root) if len(root) > 0 else None
 
 
 def generate(source: Path, output: Path, policy_file: Path | None, check: bool) -> int:
@@ -496,32 +605,64 @@ def generate(source: Path, output: Path, policy_file: Path | None, check: bool) 
             continue
         grouped[canonical].append((mapping, profile, switch_for_mapping(mapping, switches)))
 
+    effective_policies = dict(policies)
+    for source_mccmnc in REVIEWED_POLICY_MNO_ALIAS_SOURCES:
+        policy = policies.get(source_mccmnc)
+        source_records = grouped.get(source_mccmnc, [])
+        if policy is None or not source_records:
+            continue
+        source_mnos = {
+            mapping.mno.lower()
+            for mapping, _profile, _switch in source_records
+        }
+        for mccmnc, records in grouped.items():
+            if any(
+                mapping.mno.lower() in source_mnos
+                for mapping, _profile, _switch in records
+            ):
+                effective_policies.setdefault(mccmnc, policy)
+
     expected = {
-        f"{FILE_PREFIX}{mccmnc}.xml": render_file(
-            mccmnc, grouped.get(mccmnc, []), policies.get(mccmnc)
+        f"{BASELINE_FILE_PREFIX}{mccmnc}.xml": render_baseline_file(
+            mccmnc, records
         )
-        for mccmnc in grouped.keys() | policies.keys()
+        for mccmnc, records in grouped.items()
     }
+    for mccmnc in grouped.keys() | effective_policies.keys():
+        content = render_override_file(
+            mccmnc, grouped.get(mccmnc, []), effective_policies.get(mccmnc)
+        )
+        if content is not None:
+            expected[f"{OVERRIDE_FILE_PREFIX}{mccmnc}.xml"] = content
 
     if check:
         mismatches = [
             name for name, content in expected.items()
             if not (output / name).is_file() or (output / name).read_bytes() != content
         ]
-        extras = [path.name for path in output.glob(f"{FILE_PREFIX}*.xml") if path.name not in expected]
+        extras = [
+            path.name
+            for prefix in (BASELINE_FILE_PREFIX, OVERRIDE_FILE_PREFIX)
+            for path in output.glob(f"{prefix}*.xml")
+            if path.name not in expected
+        ]
         if mismatches or extras:
             for name in sorted(mismatches + extras):
                 print(name, file=sys.stderr)
             return 1
     else:
         output.mkdir(parents=True, exist_ok=True)
-        for old_file in output.glob(f"{FILE_PREFIX}*.xml"):
-            old_file.unlink()
+        for prefix in (BASELINE_FILE_PREFIX, OVERRIDE_FILE_PREFIX):
+            for old_file in output.glob(f"{prefix}*.xml"):
+                old_file.unlink()
         for name, content in sorted(expected.items()):
             (output / name).write_bytes(content)
 
+    baseline_count = sum(name.startswith(BASELINE_FILE_PREFIX) for name in expected)
+    override_count = sum(name.startswith(OVERRIDE_FILE_PREFIX) for name in expected)
     print(
-        f"{len(expected)} files, {sum(len(value) for value in grouped.values())} mappings, "
+        f"{baseline_count} baseline files, {override_count} reviewed override files, "
+        f"{sum(len(value) for value in grouped.values())} mappings, "
         f"{skipped} mappings without a transferable MMTEL profile"
     )
     return 0

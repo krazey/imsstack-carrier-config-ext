@@ -47,5 +47,4 @@
         <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1500" />
         <boolean name="imsvoice.audio_evs_support_bool" value="false" />
     </carrier_config>
-    <!-- PhhIms reviewed policy Vodafone Turkey -->
 </carrier_config_list>

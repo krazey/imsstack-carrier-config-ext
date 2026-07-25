@@ -46,14 +46,4 @@
         <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1300" />
         <boolean name="imsvoice.audio_evs_support_bool" value="false" />
     </carrier_config>
-    <!-- PhhIms reviewed policy Singtel Singapore -->
-    <carrier_config>
-        <boolean name="ims.sip_compact_form_enabled_bool" value="true" />
-        <int-array name="ims.ipsec_authentication_algorithms_int_array" num="1">
-            <item value="1" />
-        </int-array>
-        <int-array name="ims.ipsec_encryption_algorithms_int_array" num="1">
-            <item value="0" />
-        </int-array>
-    </carrier_config>
 </carrier_config_list>

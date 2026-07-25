@@ -48,8 +48,4 @@
         <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1330" />
         <boolean name="imsvoice.audio_evs_support_bool" value="false" />
     </carrier_config>
-    <!-- PhhIms reviewed policy A1 Croatia -->
-    <carrier_config>
-        <boolean name="ims.registration_event_package_supported_bool" value="false" />
-    </carrier_config>
 </carrier_config_list>

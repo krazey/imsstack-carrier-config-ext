@@ -48,10 +48,4 @@
         <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1500" />
         <boolean name="imsvoice.audio_evs_support_bool" value="false" />
     </carrier_config>
-    <!-- PhhIms reviewed policy Tele2 Kazakhstan -->
-    <carrier_config>
-        <boolean name="ims.gruu_enabled_bool" value="false" />
-        <int name="imsvoice.ringing_timer_millis_int" value="120000" />
-        <int name="imsvoice.ringback_timer_millis_int" value="120000" />
-    </carrier_config>
 </carrier_config_list>

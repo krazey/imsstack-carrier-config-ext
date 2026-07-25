@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- SPDX-License-Identifier: GPL-2.0-only -->
+<!-- Generated from the PhhIms carrier database; do not edit by hand. -->
+<carrier_config_list>
+    <!-- PhhIms reviewed policy SFR France UDP test policy -->
+    <carrier_config>
+        <int name="ims.sip_preferred_transport_int" value="0" />
+    </carrier_config>
+</carrier_config_list>
