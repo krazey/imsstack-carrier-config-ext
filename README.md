@@ -11,7 +11,7 @@ The committed assets contain:
   carrier set before commit `0fa1e52eec0251bafd5a52411f5bb291b8cc4c58`
   removed them.
 - 988 MCC-MNC compatibility files generated from 1,304 transferable mappings
-  in the current PhhIms carrier database.
+  from the frozen PhhIms carrier database import.
 - A small, separate set of reviewed MCC-MNC overrides for trace-validated
   carrier exceptions.
 
@@ -62,23 +62,3 @@ timeout, directional call-signaling keep-alive, same-P-CSCF retry on 403, and
 normal-call CSFB responses. Samsung response classes such as `5xx` are expanded
 to exact status codes during generation so the runtime configuration remains
 data-only.
-
-## Refreshing from PhhIms
-
-Generated files are committed; normal product builds do not need PhhIms or
-Python. To refresh them after a PhhIms database update:
-
-```sh
-tools/generate_from_phhims.py \
-    /path/to/PhhIms/app/src/main/res/xml/sip_carrier_database.xml \
-    assets/carrier_config \
-    --policy /path/to/PhhIms/app/src/main/res/xml/sip_carrier_policies.xml
-```
-
-Use the same command with `--check` to verify reproducibility. The generator
-replaces both generated MCC-MNC namespaces; it does not modify the AOSP
-carrier-ID baseline.
-
-Only fields with direct ImsStack equivalents are transferred. Reviewed policy
-translation is explicit in the generator; unsupported carrier behavior is
-omitted instead of being guessed.
