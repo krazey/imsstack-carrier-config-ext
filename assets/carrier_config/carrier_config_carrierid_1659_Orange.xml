@@ -24,4 +24,15 @@
 
     <!-- Aos -->
     <int name="ims.pdn_reconnect_delay_on_wfc_setup_fail_all_pcscfs_with_cs_roam_sec_int" value="120"/>
+
+    <!-- Mtc -->
+    <boolean name="imsvoice.prack_supported_for_18x_bool" value="false"/>
+    <string-array name="imsvoice.initial_mt_final_response_headers_to_remove_string_array" num="5">
+        <item value="Allow"/>
+        <item value="P-Preferred-Identity"/>
+        <item value="P-Access-Network-Info"/>
+        <item value="Server"/>
+        <item value="Session-ID"/>
+    </string-array>
+    <boolean name="imsvoice.initial_mt_final_response_compact_contact_bool" value="true"/>
 </carrier_config>
