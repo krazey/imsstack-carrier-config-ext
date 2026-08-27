@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile tim_it; source tim_it.pb; generated conservative fallback -->
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1300" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1300" />
+        <int name="imsss.ut_as_server_port_int" value="8080" />
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="1">
+                <item value="102" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="1">
+                <item value="104" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <int name="imsvoice.conference_subscribe_type_int" value="0" />
+        <int name="imsvoice.minimum_session_expires_timer_sec_int" value="600" />
+        <int name="imsvoice.ringback_timer_millis_int" value="60000" />
+        <int name="imsvoice.ringing_timer_millis_int" value="60000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="636F6E6E65637431">
+        <!-- Pixel profile telna_zz; source telna_zz.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.amrnb_payload_description_bundle">
+            <pbundle_as_map name="103">
+                <int-array name="imsvoice.amr_codec_attribute_modeset_int_array" num="4">
+                    <item value="0" />
+                    <item value="2" />
+                    <item value="4" />
+                    <item value="7" />
+                </int-array>
+                <int name="imsvoice.amr_codec_attribute_payload_format_int" value="1" />
+            </pbundle_as_map>
+            <pbundle_as_map name="98">
+                <int-array name="imsvoice.amr_codec_attribute_modeset_int_array" num="4">
+                    <item value="0" />
+                    <item value="2" />
+                    <item value="4" />
+                    <item value="7" />
+                </int-array>
+            </pbundle_as_map>
+        </pbundle_as_map>
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.oip_source_from_header_bool" value="true" />
+        <boolean name="imsvoice.prack_supported_for_18x_bool" value="true" />
+    </carrier_config>
+    <carrier_config gid1_prefix="434F4F50FFFFFFFFFF">
+        <!-- Pixel profile coopvoce_it; source coopvoce_it.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config imsi="^22201307130.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^22201307131.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^22201307132.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^22201307133.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^22201307134.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^22201307135.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^22201307136.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^22201307137.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^22201307138.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^22201309670.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^22201344000.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^22201344001.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^22201344002.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^222013071390.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^222013071391.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^222013071392.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^222013071393.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config imsi="^222013071394.*$">
+        <!-- Pixel profile tango_us; source tango_us.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+    </carrier_config>
+    <carrier_config spn="^CoopVoce$">
+        <!-- Pixel profile coopvoce_it; source coopvoce_it.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^vianova$">
+        <!-- Pixel profile vianova_it; source vianova_it.pb; generated conservative fallback -->
+        <int name="ims.request_uri_type_int" value="1" />
+    </carrier_config>
+</carrier_config_list>

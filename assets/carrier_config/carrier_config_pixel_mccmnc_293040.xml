@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile a1_si; source a1_si.pb; generated conservative fallback -->
+        <int name="imsvoice.ringback_timer_millis_int" value="120000" />
+        <int name="imsvoice.ringing_timer_millis_int" value="120000" />
+    </carrier_config>
+</carrier_config_list>

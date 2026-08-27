@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile singtel_sg; source singtel_sg.pb; generated conservative fallback -->
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1230" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="3600000" />
+        <int name="ims.sip_timer_f_millis_int" value="32000" />
+        <int name="ims.sip_timer_j_millis_int" value="32000" />
+        <int name="imsss.ut_as_server_port_int" value="8080" />
+        <boolean name="imsss.ut_requires_ims_registration_bool" value="true" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <string name="imsvoice.conference_factory_uri_string">conference@conference.ims.singtel.com</string>
+        <int name="imsvoice.ringing_timer_millis_int" value="45000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="636F6E6E65637431">
+        <!-- Pixel profile telna_zz; source telna_zz.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.amrnb_payload_description_bundle">
+            <pbundle_as_map name="103">
+                <int-array name="imsvoice.amr_codec_attribute_modeset_int_array" num="4">
+                    <item value="0" />
+                    <item value="2" />
+                    <item value="4" />
+                    <item value="7" />
+                </int-array>
+                <int name="imsvoice.amr_codec_attribute_payload_format_int" value="1" />
+            </pbundle_as_map>
+            <pbundle_as_map name="98">
+                <int-array name="imsvoice.amr_codec_attribute_modeset_int_array" num="4">
+                    <item value="0" />
+                    <item value="2" />
+                    <item value="4" />
+                    <item value="7" />
+                </int-array>
+            </pbundle_as_map>
+        </pbundle_as_map>
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+        <boolean name="imsvoice.oip_source_from_header_bool" value="true" />
+        <boolean name="imsvoice.prack_supported_for_18x_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>

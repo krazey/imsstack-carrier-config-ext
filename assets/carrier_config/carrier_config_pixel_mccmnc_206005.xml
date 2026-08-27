@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile telenet_be; source telenet_be.pb; generated conservative fallback -->
+        <int name="imsss.ut_iptype_home_int" value="0" />
+        <boolean name="imsss.ut_requires_ims_registration_bool" value="true" />
+        <boolean name="imsss.ut_supported_when_roaming_bool" value="false" />
+    </carrier_config>
+</carrier_config_list>

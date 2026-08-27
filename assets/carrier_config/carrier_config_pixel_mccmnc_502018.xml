@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile umobile_my; source umobile_my.pb; generated conservative fallback -->
+        <int name="ims.request_uri_type_int" value="1" />
+        <boolean name="imsss.ut_requires_ims_registration_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>

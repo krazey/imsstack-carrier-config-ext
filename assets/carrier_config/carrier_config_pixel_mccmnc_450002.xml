@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile kt_kr; source kt_kr.pb; generated conservative fallback -->
+        <int name="ims.sip_server_port_number_int" value="5080" />
+    </carrier_config>
+</carrier_config_list>

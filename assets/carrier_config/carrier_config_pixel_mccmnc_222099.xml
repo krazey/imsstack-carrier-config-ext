@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile windtre_it; source windtre_it.pb; generated conservative fallback -->
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1450" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1450" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="300000" />
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="imsss.ut_iptype_home_int" value="0" />
+        <boolean name="imsss.ut_requires_ims_registration_bool" value="true" />
+        <boolean name="imsss.ut_supported_when_roaming_bool" value="false" />
+        <int name="imsvoice.conference_subscribe_type_int" value="0" />
+        <boolean name="imsvoice.prack_supported_for_18x_bool" value="true" />
+        <int name="imsvoice.ringback_timer_millis_int" value="67000" />
+        <int name="imsvoice.ringing_timer_millis_int" value="65000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="00000099">
+        <!-- Pixel profile verymobile_it; source verymobile_it.pb; generated conservative fallback -->
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1450" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1450" />
+        <int name="ims.registration_retry_max_timer_millis_int" value="300000" />
+        <int name="ims.request_uri_type_int" value="1" />
+        <int name="imsss.ut_iptype_home_int" value="0" />
+        <boolean name="imsss.ut_requires_ims_registration_bool" value="true" />
+        <boolean name="imsss.ut_supported_when_roaming_bool" value="false" />
+        <int name="imsvoice.conference_subscribe_type_int" value="0" />
+        <boolean name="imsvoice.prack_supported_for_18x_bool" value="true" />
+        <int name="imsvoice.ringback_timer_millis_int" value="67000" />
+        <int name="imsvoice.ringing_timer_millis_int" value="65000" />
+    </carrier_config>
+    <carrier_config spn="^FASTWEB$">
+        <!-- Pixel profile fastweb_it; source fastweb_it.pb; generated conservative fallback -->
+        <string name="imsss.ut_as_server_fqdn_string">xcap.ims.mnc008.mcc222.pub.3gppnetwork.org</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="1" />
+            <item value="2" />
+            <item value="3" />
+            <item value="4" />
+            <item value="5" />
+            <item value="6" />
+            <item value="7" />
+            <item value="12" />
+            <item value="17" />
+            <item value="18" />
+            <item value="19" />
+            <item value="20" />
+            <item value="21" />
+            <item value="13" />
+            <item value="14" />
+            <item value="15" />
+            <item value="16" />
+            <item value="0" />
+            <item value="8" />
+            <item value="11" />
+            <item value="9" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+    </carrier_config>
+</carrier_config_list>

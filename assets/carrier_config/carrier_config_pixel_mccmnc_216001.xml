@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile yettel_hu; source yettel_hu.pb; generated conservative fallback -->
+        <string name="imsss.ut_as_server_fqdn_string">xcap.ims.mnc001.mcc216.pub.3gppnetwork.org</string>
+    </carrier_config>
+</carrier_config_list>

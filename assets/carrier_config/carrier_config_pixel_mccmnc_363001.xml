@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config imsi="^3630100.*$">
+        <!-- Pixel profile setar_aw; source setar_aw.pb; generated conservative fallback -->
+        <int name="ims.request_uri_type_int" value="1" />
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile melita_mt; source melita_mt.pb; generated conservative fallback -->
+        <int name="imsvoice.conference_subscribe_type_int" value="0" />
+    </carrier_config>
+    <carrier_config spn="^Melita\ Mobile$">
+        <!-- Pixel profile melita_mt; source melita_mt.pb; generated conservative fallback -->
+        <int name="imsvoice.conference_subscribe_type_int" value="0" />
+    </carrier_config>
+</carrier_config_list>

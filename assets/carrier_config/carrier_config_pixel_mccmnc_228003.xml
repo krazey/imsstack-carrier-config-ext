@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile salt_ch; source salt_ch.pb; generated conservative fallback -->
+        <string name="imsss.ut_as_server_fqdn_string">xcap.ims.mnc003.mcc228.3gppnetwork.org</string>
+        <boolean name="imsss.ut_requires_ims_registration_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>

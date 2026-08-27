@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile a1_hr; source a1_hr.pb; generated conservative fallback -->
+        <boolean name="imsvoice.oip_source_from_header_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>

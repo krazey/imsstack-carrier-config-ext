@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile entel_cl; source entel_cl.pb; generated conservative fallback -->
+        <string name="imsss.ut_as_server_fqdn_string">xcap.ims.mnc001.mcc730.pub.3gppnetwork.org</string>
+        <int name="imsss.ut_as_server_port_int" value="8080" />
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,2850 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile tmobile_us; source tmobile_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="1A53">
+        <!-- Pixel profile assurance_us; source assurance_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="2AC9">
+        <!-- Pixel profile consumercellulartmo_us; source consumercellulartmo_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="354D">
+        <!-- Pixel profile ultra_us; source ultra_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="364D">
+        <!-- Pixel profile ultra_us; source ultra_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="4153">
+        <!-- Pixel profile ultra_us; source ultra_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="4154">
+        <!-- Pixel profile ultra_us; source ultra_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="4155">
+        <!-- Pixel profile ultra_us; source ultra_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="4276">
+        <!-- Pixel profile fi_tmo_us; source fi_tmo_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="4280">
+        <!-- Pixel profile u264a_us; source u264a_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="4358">
+        <!-- Pixel profile pwg_us; source pwg_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="4753">
+        <!-- Pixel profile tmomvno_us; source tmomvno_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="4D4B">
+        <!-- Pixel profile tmomvno_us; source tmomvno_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="514C">
+        <!-- Pixel profile qlink_us; source qlink_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="534D">
+        <!-- Pixel profile simple_us; source simple_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6132">
+        <!-- Pixel profile ultra_us; source ultra_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6134">
+        <!-- Pixel profile republicwireless_us; source republicwireless_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6135">
+        <!-- Pixel profile tmomvno_us; source tmomvno_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6136">
+        <!-- Pixel profile kajeetmvno_us; source kajeetmvno_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6137">
+        <!-- Pixel profile rockisland_us; source rockisland_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6230">
+        <!-- Pixel profile boosttmo_us; source boosttmo_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6430">
+        <!-- Pixel profile dish_us; source dish_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6432">
+        <!-- Pixel profile dish_us; source dish_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6434">
+        <!-- Pixel profile dish_us; source dish_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6436">
+        <!-- Pixel profile dish_us; source dish_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6438">
+        <!-- Pixel profile dish_us; source dish_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6440">
+        <!-- Pixel profile dish_us; source dish_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6442">
+        <!-- Pixel profile dish_us; source dish_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6514">
+        <!-- Pixel profile rockisland_us; source rockisland_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6523">
+        <!-- Pixel profile reach_us; source reach_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6528">
+        <!-- Pixel profile fliggsmobile_us; source fliggsmobile_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6529">
+        <!-- Pixel profile nymobile_us; source nymobile_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6801">
+        <!-- Pixel profile roccstar_us; source roccstar_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6901">
+        <!-- Pixel profile pwg_us; source pwg_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6902">
+        <!-- Pixel profile plintron_us; source plintron_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6903">
+        <!-- Pixel profile ultra_us; source ultra_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6905">
+        <!-- Pixel profile republicwireless_us; source republicwireless_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6907">
+        <!-- Pixel profile helium_us; source helium_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6909">
+        <!-- Pixel profile pwg_us; source pwg_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6910">
+        <!-- Pixel profile mvnoconnect_us; source mvnoconnect_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6911">
+        <!-- Pixel profile astoundbroadband_us; source astoundbroadband_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6912">
+        <!-- Pixel profile 321communications_us; source 321communications_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6913">
+        <!-- Pixel profile reallycommunications_us; source reallycommunications_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6914">
+        <!-- Pixel profile joonto_us; source joonto_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6916">
+        <!-- Pixel profile fliggsmobile_us; source fliggsmobile_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6917">
+        <!-- Pixel profile wireless_us; source wireless_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6918">
+        <!-- Pixel profile roccstar_us; source roccstar_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6919">
+        <!-- Pixel profile nymobile_us; source nymobile_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6922">
+        <!-- Pixel profile smartless_us; source smartless_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6923">
+        <!-- Pixel profile noble_us; source noble_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6924">
+        <!-- Pixel profile libertymobile_us; source libertymobile_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6925">
+        <!-- Pixel profile compax_us; source compax_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6926">
+        <!-- Pixel profile membersmobile_us; source membersmobile_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6941">
+        <!-- Pixel profile tello_us; source tello_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6957">
+        <!-- Pixel profile iwireless_us; source iwireless_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6972">
+        <!-- Pixel profile reach_us; source reach_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6C79">
+        <!-- Pixel profile lyca_us; source lyca_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="6D38">
+        <!-- Pixel profile metropcs_us; source metropcs_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="7031">
+        <!-- Pixel profile plintron_us; source plintron_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="7032">
+        <!-- Pixel profile plintron_us; source plintron_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="7033">
+        <!-- Pixel profile tmomvno_us; source tmomvno_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="7477">
+        <!-- Pixel profile tmomvno_us; source tmomvno_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="7531">
+        <!-- Pixel profile pwg_us; source pwg_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="756D">
+        <!-- Pixel profile ultra_us; source ultra_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="7601">
+        <!-- Pixel profile ultra_us; source ultra_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="7A73">
+        <!-- Pixel profile tmomvno_us; source tmomvno_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="8135">
+        <!-- Pixel profile bark_us; source bark_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="8525">
+        <!-- Pixel profile joonto_us; source joonto_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="8550">
+        <!-- Pixel profile reallycommunications_us; source reallycommunications_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="BA02">
+        <!-- Pixel profile spectrumbusiness_us; source spectrumbusiness_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="CC01">
+        <!-- Pixel profile comcastbusiness_us; source comcastbusiness_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="DDFF">
+        <!-- Pixel profile tracfonetmo_us; source tracfonetmo_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="DEFF">
+        <!-- Pixel profile tracfonetmo_us; source tracfonetmo_us.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <string name="ims.ims_user_agent_string">T-Mobile EPSFB-ePDG-IR94-RTT-ussd #MANUFACTURE#/#MODEL# #BUILD#</string>
+        <int name="ims.request_uri_type_int" value="1" />
+        <string name="imsss.ut_as_server_fqdn_string">xcap.msg.pc.t-mobile.com</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int-array name="imsss.ut_server_based_services_int_array" num="21">
+            <item value="20" />
+            <item value="12" />
+            <item value="18" />
+            <item value="14" />
+            <item value="19" />
+            <item value="21" />
+            <item value="15" />
+            <item value="16" />
+            <item value="17" />
+            <item value="13" />
+            <item value="1" />
+            <item value="3" />
+            <item value="4" />
+            <item value="7" />
+            <item value="6" />
+            <item value="5" />
+            <item value="2" />
+            <item value="0" />
+            <item value="8" />
+            <item value="9" />
+            <item value="11" />
+        </int-array>
+        <int-array name="imsss.ut_terminal_based_services_int_array" num="1">
+            <item value="10" />
+        </int-array>
+        <int name="imsss.ut_transport_type_int" value="3" />
+        <string name="imsvoice.conference_factory_uri_string">8881112663@msg.pc.t-mobile.com</string>
+        <boolean name="imsvoice.include_caller_id_service_codes_in_sip_invite_bool" value="true" />
+        <int name="imsvoice.mo_call_request_timeout_millis_int" value="0" />
+        <int name="imsvoice.ringback_timer_millis_int" value="128000" />
+    </carrier_config>
+</carrier_config_list>

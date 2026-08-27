@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config spn="^Virgin\ telco$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^Tu\ Operador$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^Cablemovil$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^Lycamobile$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^EUSKALTEL$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^Pepephone$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^telecable$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^MASMOVIL$">
+        <!-- Pixel profile masmovil_es; source masmovil_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^Populoos$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^RACCtel\+$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^LLAMAYA$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^LEBARA$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^SIMple$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^mobilR$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^Sweno$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^Yoigo$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^GUUK$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^RACC$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+    <carrier_config spn="^R$">
+        <!-- Pixel profile yoigo_es; source yoigo_es.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+</carrier_config_list>

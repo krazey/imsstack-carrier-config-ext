@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile free_fr; source free_fr.pb; generated conservative fallback -->
+        <boolean name="ims.gruu_enabled_bool" value="true" />
+        <int name="ims.ipv4_sip_mtu_size_cellular_int" value="1280" />
+        <int name="ims.ipv6_sip_mtu_size_cellular_int" value="1280" />
+        <boolean name="imsvoice.prack_supported_for_18x_bool" value="true" />
+        <int name="imsvoice.ringback_timer_millis_int" value="120000" />
+        <int name="imsvoice.ringing_timer_millis_int" value="120000" />
+    </carrier_config>
+    <carrier_config gid1_prefix="F2330002">
+        <!-- Pixel profile free_re; source free_re.pb; generated conservative fallback -->
+        <pbundle_as_map name="imsvoice.audio_codec_capability_payload_types_bundle">
+            <int-array name="imsvoice.amrnb_payload_type_int_array" num="2">
+                <item value="98" />
+                <item value="103" />
+            </int-array>
+            <int-array name="imsvoice.amrwb_payload_type_int_array" num="2">
+                <item value="100" />
+                <item value="105" />
+            </int-array>
+            <int-array name="imsvoice.dtmfnb_payload_type_int_array" num="1">
+                <item value="97" />
+            </int-array>
+            <int-array name="imsvoice.dtmfwb_payload_type_int_array" num="1">
+                <item value="96" />
+            </int-array>
+        </pbundle_as_map>
+    </carrier_config>
+</carrier_config_list>

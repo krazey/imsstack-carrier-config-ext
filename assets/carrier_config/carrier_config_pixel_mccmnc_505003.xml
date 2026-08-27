@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile vodafone_au; source vodafone_au.pb; generated conservative fallback -->
+        <string name="ims.ims_user_agent_string">#MANUFACTURE# #MODEL# Android #BUILD#</string>
+        <int name="imsvoice.conference_subscribe_type_int" value="0" />
+        <int name="imsvoice.session_refresher_type_int" value="2" />
+    </carrier_config>
+</carrier_config_list>

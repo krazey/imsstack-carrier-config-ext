@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config gid1_prefix="0E">
+        <!-- Pixel profile telavox_be; source telavox_be.pb; generated conservative fallback -->
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="false" />
+    </carrier_config>
+    <carrier_config spn="^Telavox$">
+        <!-- Pixel profile telavox_be; source telavox_be.pb; generated conservative fallback -->
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="false" />
+    </carrier_config>
+</carrier_config_list>

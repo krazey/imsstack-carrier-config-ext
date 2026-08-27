@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile spusu_at; source spusu_at.pb; generated conservative fallback -->
+        <int name="ims.request_uri_type_int" value="1" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="false" />
+        <int name="ims.sip_preferred_transport_int" value="0" />
+    </carrier_config>
+    <carrier_config gid1_prefix="42">
+        <!-- Pixel profile help_at; source help_at.pb; generated conservative fallback -->
+        <int name="ims.request_uri_type_int" value="1" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="false" />
+        <int name="ims.sip_preferred_transport_int" value="0" />
+    </carrier_config>
+    <carrier_config gid1_prefix="44">
+        <!-- Pixel profile tchibo_at; source tchibo_at.pb; generated conservative fallback -->
+        <int name="ims.request_uri_type_int" value="1" />
+        <boolean name="ims.sip_over_ipsec_enabled_bool" value="false" />
+        <int name="ims.sip_preferred_transport_int" value="0" />
+    </carrier_config>
+</carrier_config_list>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config>
+        <!-- Pixel profile movistar_cl; source movistar_cl.pb; generated conservative fallback -->
+        <string name="imsvoice.conference_factory_uri_string">conference@ims.mnc002.mcc730.3gppnetwork.org</string>
+    </carrier_config>
+</carrier_config_list>

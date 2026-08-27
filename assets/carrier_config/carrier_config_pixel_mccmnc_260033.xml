@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<carrier_config_list>
+    <carrier_config gid1_prefix="547275554B3030656E">
+        <!-- Pixel profile truphone_zz; source truphone_zz.pb; generated conservative fallback -->
+        <string name="imsss.ut_as_server_fqdn_string">xcap.ims.truphone.net</string>
+        <int name="imsss.ut_as_server_port_int" value="443" />
+        <int name="imsss.ut_transport_type_int" value="3" />
+    </carrier_config>
+</carrier_config_list>
