@@ -7,13 +7,16 @@ userspace IMS provider.
 
 The committed assets contain:
 
-- 384 carrier-ID and MCC-MNC profiles from the last public AOSP ImsStack
-  carrier set before commit `0fa1e52eec0251bafd5a52411f5bb291b8cc4c58`
-  removed them.
+- 383 canonical carrier-ID and MCC-MNC profiles from the last public AOSP
+  ImsStack carrier set before commit
+  `0fa1e52eec0251bafd5a52411f5bb291b8cc4c58` removed them. The source
+  snapshot's duplicate carrier-ID 1849 entry is consolidated into its
+  canonical profile.
 - 988 MCC-MNC compatibility files generated from 1,304 transferable mappings
   from the frozen PhhIms carrier database import.
-- A small, separate set of reviewed MCC-MNC overrides for trace-validated
-  carrier exceptions.
+- 10 reviewed MCC-MNC overrides for trace-validated carrier exceptions.
+- 614 filtered Pixel MCC-MNC fallbacks used only when no more specific
+  profile matches.
 
 The AOSP profiles keep their Apache-2.0 notices. Files named
 `carrier_config_ext_mccmnc_*.xml` and
@@ -36,8 +39,12 @@ Place this repository at `vendor/lineage/imsstack-carrier-config-ext` and add:
 PRODUCT_SOONG_NAMESPACES += \
     vendor/lineage/imsstack-carrier-config-ext
 
-$(call soong_config_set_bool,imsstack_namespace,use_carrier_config_ext,true)
+$(call soong_config_set,imsstack_namespace,use_carrier_config_ext,true)
 ```
+
+The selector is string-valued in ImsStack's Soong configuration. Using
+`soong_config_set_bool` selects a different variable type and does not enable
+the extension.
 
 The matching ImsStack patch layers
 `carrier_config_ext_mccmnc_<MCC><MNC>.xml` as compatibility defaults before
@@ -62,3 +69,15 @@ timeout, directional call-signaling keep-alive, same-P-CSCF retry on 403, and
 normal-call CSFB responses. Samsung response classes such as `5xx` are expanded
 to exact status codes during generation so the runtime configuration remains
 data-only.
+
+## Validation
+
+Validate all committed profiles before submitting changes:
+
+```sh
+python3 check_carrier_configs.py
+```
+
+The check covers XML structure, supported selector and value types, numeric
+ranges, array lengths, regular expressions, duplicate keys, inherited parent
+references and ambiguous carrier-ID filenames.
